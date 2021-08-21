@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog of SharkPan</title>
+  
+  <subtitle>You get what you put in.</subtitle>
+  <link href="https://sharkpan.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://sharkpan.github.io/"/>
+  <updated>2021-08-21T11:56:17.055Z</updated>
+  <id>https://sharkpan.github.io/</id>
+  
+  <author>
+    <name>SharkPan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VScode快捷键记录</title>
+    <link href="https://sharkpan.github.io/2021/08/18/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/VSCode%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/"/>
+    <id>https://sharkpan.github.io/2021/08/18/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/VSCode%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-08-18T09:02:44.961Z</published>
+    <updated>2021-08-21T11:56:17.055Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;⚠️注释：⌘=Command; ⌥=Option; ^=Control; ⇧=Shift; ⇪=CapLock; ⎋=Escape&lt;/p&gt;
+&lt;h1 id=&quot;HTML篇&quot;&gt;&lt;a href=&quot;#HTML篇&quot; class=&quot;headerlink&quot; title=&quot;HTML篇&quot;&gt;&lt;/a&gt;&lt;strong&gt;HTML篇&lt;/strong&gt;&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;! +Tab：可以快速制作骨架&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;⌥⇧F：实现代码对齐&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;⌘ + /：添加/取消注释（另外还有 ⌘KC &amp;amp; ⌘KU）&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="课外摘录" scheme="https://sharkpan.github.io/categories/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="快捷键" scheme="https://sharkpan.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+    <category term="VScode" scheme="https://sharkpan.github.io/tags/VScode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VScode安装损坏解决方法</title>
+    <link href="https://sharkpan.github.io/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://sharkpan.github.io/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-08-18T07:37:57.094Z</published>
+    <updated>2021-08-21T11:01:55.806Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;VScode安装损坏解决方法&quot;&gt;&lt;a href=&quot;#VScode安装损坏解决方法&quot; class=&quot;headerlink&quot; title=&quot;VScode安装损坏解决方法&quot;&gt;&lt;/a&gt;VScode安装损坏解决方法&lt;/h2&gt;&lt;h3 id=&quot;问题陈述&quot;&gt;&lt;a href=&quot;#问题陈述&quot; class=&quot;headerlink&quot; title=&quot;问题陈述&quot;&gt;&lt;/a&gt;问题陈述&lt;/h3&gt;&lt;p&gt;在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="问题解决" scheme="https://sharkpan.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="VScode" scheme="https://sharkpan.github.io/tags/VScode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用终端部署hexo博客后出现报错的解决方法</title>
+    <link href="https://sharkpan.github.io/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://sharkpan.github.io/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-08-05T07:09:19.981Z</published>
+    <updated>2021-08-10T14:51:33.050Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;用终端部署hexo博客后出现报错的解决方法&quot;&gt;&lt;a href=&quot;#用终端部署hexo博客后出现报错的解决方法&quot; class=&quot;headerlink&quot; title=&quot;用终端部署hexo博客后出现报错的解决方法&quot;&gt;&lt;/a&gt;用终端部署hexo博客后出现报错的解决方法&lt;/h2&gt;&lt;h3 id=&quot;问题陈述&quot;&gt;&lt;a href=&quot;#问题陈述&quot; class=&quot;headerlink&quot; title=&quot;问题陈述&quot;&gt;&lt;/a&gt;问题陈述&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="问题解决" scheme="https://sharkpan.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="Hexo" scheme="https://sharkpan.github.io/tags/Hexo/"/>
+    
+    <category term="ERROR报错" scheme="https://sharkpan.github.io/tags/ERROR%E6%8A%A5%E9%94%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac不能编辑Users文件夹内文件的解决方法</title>
+    <link href="https://sharkpan.github.io/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://sharkpan.github.io/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-08-04T01:10:37.991Z</published>
+    <updated>2021-08-21T10:56:18.108Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Mac不能编辑Users文件夹内文件的解决方法&quot;&gt;&lt;a href=&quot;#Mac不能编辑Users文件夹内文件的解决方法&quot; class=&quot;headerlink&quot; title=&quot;Mac不能编辑Users文件夹内文件的解决方法&quot;&gt;&lt;/a&gt;Mac不能编辑Users文件夹内文件的解决方法&lt;/h2&gt;&lt;h3 id=&quot;问题陈述&quot;&gt;&lt;a href=&quot;#问题陈述&quot; class=&quot;headerlink&quot; title=&quot;问题陈述&quot;&gt;&lt;/a&gt;问题陈述&lt;/h3&gt;&lt;p&gt;在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="问题解决" scheme="https://sharkpan.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="Xcode" scheme="https://sharkpan.github.io/tags/Xcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>终端使用Vim编辑时怎么退出</title>
+    <link href="https://sharkpan.github.io/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/"/>
+    <id>https://sharkpan.github.io/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</id>
+    <published>2021-08-03T00:32:27.647Z</published>
+    <updated>2021-08-21T10:32:46.084Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;终端使用Vim编辑时怎么退出&quot;&gt;&lt;a href=&quot;#终端使用Vim编辑时怎么退出&quot; class=&quot;headerlink&quot; title=&quot;终端使用Vim编辑时怎么退出&quot;&gt;&lt;/a&gt;终端使用Vim编辑时怎么退出&lt;/h2&gt;&lt;h3 id=&quot;进入vim&quot;&gt;&lt;a href=&quot;#进入vim&quot; class=&quot;headerlink&quot; title=&quot;进入vim&quot;&gt;&lt;/a&gt;进入vim&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="问题解决" scheme="https://sharkpan.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="Vim" scheme="https://sharkpan.github.io/tags/Vim/"/>
+    
+    <category term="终端" scheme="https://sharkpan.github.io/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>推荐好用的 M1 软件</title>
+    <link href="https://sharkpan.github.io/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://sharkpan.github.io/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/</id>
+    <published>2021-07-28T07:32:01.069Z</published>
+    <updated>2021-08-21T02:51:45.956Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;推荐好用的-M1-软件&quot;&gt;&lt;a href=&quot;#推荐好用的-M1-软件&quot; class=&quot;headerlink&quot; title=&quot;推荐好用的 M1 软件&quot;&gt;&lt;/a&gt;推荐好用的 M1 软件&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;NeatDownloadManager–下载器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Downie 4–视频下载软件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Paste–复制粘贴记录&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="小技巧" scheme="https://sharkpan.github.io/categories/%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="M1" scheme="https://sharkpan.github.io/tags/M1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML基础笔记</title>
+    <link href="https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <id>https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-07-15T03:22:30.463Z</published>
+    <updated>2021-08-21T15:40:54.501Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;知识点提及&quot;&gt;&lt;a href=&quot;#知识点提及&quot; class=&quot;headerlink&quot; title=&quot;知识点提及&quot;&gt;&lt;/a&gt;&lt;strong&gt;知识点提及&lt;/strong&gt;&lt;/h1&gt;&lt;h4 id=&quot;Web-标准的构成（重点）&quot;&gt;&lt;a href=&quot;#Web-标准的构成（重点）&quot; class=&quot;headerlink&quot; title=&quot;Web 标准的构成（重点）&quot;&gt;&lt;/a&gt;Web 标准的构成（重点）&lt;/h4&gt;&lt;p&gt;​    主要包括&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（structure框架&lt;u&gt;html&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（presentation颜色&lt;u&gt;css&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（behavior交互&lt;u&gt;js&lt;/u&gt;），要互相&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;分离&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;
+&lt;h4 id=&quot;HTML语法规范&quot;&gt;&lt;a href=&quot;#HTML语法规范&quot; class=&quot;headerlink&quot; title=&quot;HTML语法规范&quot;&gt;&lt;/a&gt;HTML语法规范&lt;/h4&gt;&lt;p&gt;​    &lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;单标签&lt;/span&gt;&lt;/strong&gt;极少出现&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://sharkpan.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="HTML" scheme="https://sharkpan.github.io/tags/HTML/"/>
+    
+    <category term="标记语言" scheme="https://sharkpan.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>尚硅谷JS笔记</title>
+    <link href="https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B0%9A%E7%A1%85%E8%B0%B7JS%E7%AC%94%E8%AE%B0/"/>
+    <id>https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B0%9A%E7%A1%85%E8%B0%B7JS%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-07-15T03:22:30.463Z</published>
+    <updated>2021-08-08T05:11:33.932Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;001-JS简介&quot;&gt;&lt;a href=&quot;#001-JS简介&quot; class=&quot;headerlink&quot; title=&quot;001-JS简介&quot;&gt;&lt;/a&gt;001-JS简介&lt;/h1&gt;&lt;p&gt;NetScape开发了一门语言叫LiveScript用于自家的Navigator浏览器。&lt;/p&gt;
+&lt;p&gt;Sun公司来了，Java在当时火，就改名叫JavaScript。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://sharkpan.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="js" scheme="https://sharkpan.github.io/tags/js/"/>
+    
+    <category term="编程语言" scheme="https://sharkpan.github.io/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 语法</title>
+    <link href="https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/</id>
+    <published>2021-07-13T08:41:23.402Z</published>
+    <updated>2021-08-21T15:40:48.385Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Markdown-语法&quot;&gt;&lt;a href=&quot;#Markdown-语法&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法&quot;&gt;&lt;/a&gt;&lt;strong&gt;Markdown 语法&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;1、代码块&quot;&gt;&lt;a href=&quot;#1、代码块&quot; class=&quot;headerlink&quot; title=&quot;1、代码块&quot;&gt;&lt;/a&gt;1、代码块&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://sharkpan.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="标记语言" scheme="https://sharkpan.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="md" scheme="https://sharkpan.github.io/tags/md/"/>
+    
+  </entry>
+  
+</feed>

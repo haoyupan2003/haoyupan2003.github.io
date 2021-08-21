@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/32x32.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/16x16.ico">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"sharkpan.github.io","root":"/","images":"/images","scheme":"Gemini","version":"8.7.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="Markdown 语法1、代码块">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 语法">
+<meta property="og:url" content="https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/index.html">
+<meta property="og:site_name" content="Blog of SharkPan">
+<meta property="og:description" content="Markdown 语法1、代码块">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80">
+<meta property="article:published_time" content="2021-07-13T08:41:23.402Z">
+<meta property="article:modified_time" content="2021-08-21T15:40:48.385Z">
+<meta property="article:author" content="SharkPan">
+<meta property="article:tag" content="语法">
+<meta property="article:tag" content="标记语言">
+<meta property="article:tag" content="md">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80">
+
+
+<link rel="canonical" href="https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/","path":"2021/07/13/学习笔记/Markdown语法/","title":"Markdown 语法"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>Markdown 语法 | Blog of SharkPan</title>
+  
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="Blog of SharkPan" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Blog of SharkPan</h1>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">You get what you put in.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown-%E8%AF%AD%E6%B3%95"><span class="nav-text">Markdown 语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1%E3%80%81%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="nav-text">1、代码块</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2%E3%80%81%E6%A0%87%E9%A2%98"><span class="nav-text">2、标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-text">三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-text">四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-text">五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98"><span class="nav-text">六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3%E3%80%81%E5%AD%97%E4%BD%93"><span class="nav-text">3、字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4%E3%80%81%E5%BC%95%E7%94%A8"><span class="nav-text">4、引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5%E3%80%81%E5%88%86%E5%89%B2%E7%BA%BF"><span class="nav-text">5、分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6%E3%80%81%E5%9B%BE%E7%89%87%E6%8F%92%E5%85%A5"><span class="nav-text">6、图片插入</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7%E3%80%81%E8%B6%85%E9%93%BE%E6%8E%A5"><span class="nav-text">7、超链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8%E3%80%81%E5%88%97%E8%A1%A8"><span class="nav-text">8、列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9%E3%80%81%E8%A1%A8%E6%A0%BC"><span class="nav-text">9、表格</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10%E3%80%81%E5%AD%97%E4%BD%93%E9%A2%9C%E8%89%B2-%E9%80%9A%E8%BF%87HTML%E4%B8%8Ecss%E5%AE%9E%E7%8E%B0"><span class="nav-text">10、字体颜色(通过HTML与css实现)</span></a></li></ol></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-overview">
+            <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="SharkPan"
+      src="/images/header.png">
+  <p class="site-author-name" itemprop="name">SharkPan</p>
+  <div class="site-description" itemprop="description">希望写的博客能给自己并他人带来帮助与便捷！共同努力共同加油！💪</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/SharkPan" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;SharkPan" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.youtube.com/channel/UChVgXnJlxGZyIhUqV7IX66Q" title="YouTube → https:&#x2F;&#x2F;www.youtube.com&#x2F;channel&#x2F;UChVgXnJlxGZyIhUqV7IX66Q" rel="noopener" target="_blank"><i class="fab fa-youtube fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/atom.xml" title="RSS → &#x2F;atom.xml"><i class="fas fa-rss fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=200 height=52 src="//music.163.com/outchain/player?type=2&id=1346101611&auto=1&height=32"></iframe>
+
+          </div>
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.png">
+      <meta itemprop="name" content="SharkPan">
+      <meta itemprop="description" content="希望写的博客能给自己并他人带来帮助与便捷！共同努力共同加油！💪">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog of SharkPan">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Markdown 语法
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-07-13 16:41:23" itemprop="dateCreated datePublished" datetime="2021-07-13T16:41:23+08:00">2021-07-13</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-08-21 23:40:48" itemprop="dateModified" datetime="2021-08-21T23:40:48+08:00">2021-08-21</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">学习笔记</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>572</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a><strong>Markdown 语法</strong></h1><h2 id="1、代码块"><a href="#1、代码块" class="headerlink" title="1、代码块"></a>1、代码块</h2><span id="more"></span>
+
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PYTHON"><figure class="iseeu highlight /python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 通过 &quot; ``` + 语言名称 &quot; 就可以在文档中创建一个代码块</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h2 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//标题语法</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//加粗</span><br><span class="line"><span class="strong">**哈哈哈**</span></span><br><span class="line">//代码高亮显示</span><br><span class="line">==Sharkpan==</span><br><span class="line">//删除线</span><br><span class="line">~~我喜欢你~~</span><br><span class="line">//斜体</span><br><span class="line"><span class="emphasis">*斜体内容*</span></span><br></pre></td></tr></table></figure></div>
+
+<p>//加粗<br><strong>哈哈哈</strong><br>//代码高亮显示<br>==Sharkpan==<br>//删除线<br><del>我喜欢你</del><br>//斜体<br><em>斜体内容</em></p>
+<hr>
+<h2 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//引用语法</span><br><span class="line">&gt;你是谁</span><br><span class="line">&gt;&gt;你在哪里</span><br><span class="line">&gt;&gt;&gt;你要做什么</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>你是谁</p>
+<blockquote>
+<p>你在哪里</p>
+<blockquote>
+<p>你要做什么</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">//分割线1</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">//分割线2</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p>//分割线1</p>
+<hr>
+<p>//分割线2</p>
+<hr>
+<h2 id="6、图片插入"><a href="#6、图片插入" class="headerlink" title="6、图片插入"></a>6、图片插入</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//在线图片与本地图片</span><br><span class="line">![<span class="string">图片的名字</span>](<span class="link">/图片路径或地址</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p><img src="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80" alt=" "></p>
+<hr>
+<h2 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//超链接语法，在typora中需要按住cmd点击</span><br><span class="line">[<span class="string">unsplash</span>](<span class="link">https://unsplash.com/</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p>//超链接语法<br><a target="_blank" rel="noopener" href="https://unsplash.com/">unsplash</a></p>
+<hr>
+<h2 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//无序列表</span><br><span class="line"><span class="bullet">-</span> 目录一</span><br><span class="line"><span class="bullet">-</span> 目录二</span><br><span class="line"><span class="bullet">-</span> 目录三</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h2><p>右键插入表格</p>
+<hr>
+<h2 id="10、字体颜色-通过HTML与css实现"><a href="#10、字体颜色-通过HTML与css实现" class="headerlink" title="10、字体颜色(通过HTML与css实现)"></a>10、字体颜色(通过HTML与css实现)</h2><p><span style="color:#82B1DB;">看看我是什么颜色！</span></p>
+<p><strong><span style="color:#82B1DB;">我还能黑体！</span></strong></p>
+
+    </div>
+
+    
+    
+    
+    
+    <div>
+        
+            <div>
+    
+        <div style="text-align:center;color: #282828;font-size:20px;"> ✩ </div>
+        <div style="text-align:center;color: #ccc;font-size:14px;">--------------------END--------------------</div>
+    
+</div>
+
+        
+    </div>
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div><i class="fas fa-coffee"></i> Buy me a coffee</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.png" alt="SharkPan 微信">
+        <span>微信</span>
+      </div>
+      <div>
+        <img src="/images/alipay.png" alt="SharkPan 支付宝">
+        <span>支付宝</span>
+      </div>
+
+  </div>
+</div>
+
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>SharkPan
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/" title="Markdown 语法">https://sharkpan.github.io/2021/07/13/学习笔记/Markdown语法/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E8%AF%AD%E6%B3%95/" rel="tag"># 语法</a>
+              <a href="/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/" rel="tag"># 标记语言</a>
+              <a href="/tags/md/" rel="tag"># md</a>
+          </div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B0%9A%E7%A1%85%E8%B0%B7JS%E7%AC%94%E8%AE%B0/" rel="prev" title="尚硅谷JS笔记">
+                  <i class="fa fa-chevron-left"></i> 尚硅谷JS笔记
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+
+
+    <div class="comments utterances-container"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fas fa-angle-right"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SharkPan</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+      <span>站点总字数：</span>
+    <span title="站点总字数">5k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span>站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">4 分钟</span>
+  </span>
+</div>
+
+
+<div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style='display:none'>
+    <i class="fas fa-user-tie"></i>访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    <i class="fas fa-eye"></i>有<span id="busuanzi_value_site_uv"></span>人看过我的博客啦
+</span>
+</div>
+
+<!-- -->
+
+
+    <!-- 样式二（飘动的彩带） -->
+    <script src="https://cdn.jsdelivr.net/gh/wallleap/cdn@latest/js/piao.js" type="text/javascript"></script>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="/js/third-party/search/local-search.js"></script>
+
+  <script class="next-config" data-name="pdf" type="application/json">{"object_url":{"url":"https://cdn.jsdelivr.net/npm/pdfobject@2.2.6/pdfobject.min.js","integrity":"sha256-77geM50MfxCD17eqyJR+Dag1svjJOLN+BJ2F/DMqMEY="},"url":"/lib/pdf/web/viewer.html"}</script>
+  <script src="/js/third-party/tags/pdf.js"></script>
+
+
+
+  
+
+
+
+
+<script type="text/javascript" src="/js/src/love.js"></script><script class="next-config" data-name="utterances" type="application/json">{"enable":true,"repo":"SharkPan/hugoblogtalks","issue_term":"pathname","theme":"preferred-color-scheme","cdn":"https://utteranc.es/client.js"}</script>
+<script src="/js/third-party/comments/utterances.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body>
+</html>
