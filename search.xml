@@ -27,6 +27,154 @@
       </tags>
   </entry>
   <entry>
+    <title>推荐好用的 M1 软件</title>
+    <url>/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐好用的-M1-软件"><a href="#推荐好用的-M1-软件" class="headerlink" title="推荐好用的 M1 软件"></a>推荐好用的 M1 软件</h2><ol>
+<li><p>NeatDownloadManager–下载器</p>
+</li>
+<li><p>Downie 4–视频下载软件</p>
+</li>
+<li><p>Paste–复制粘贴记录</p>
+<span id="more"></span></li>
+<li><p>Tiles–更好的窗口管理</p>
+</li>
+<li><p>Mos–鼠标滚轮反向</p>
+</li>
+<li><p>MacBooster–电脑管理助手</p>
+</li>
+<li><p>CleanMyMac X–电脑管理助手</p>
+</li>
+<li><p>Brightness Slider–外接屏亮度调节</p>
+</li>
+<li><p>Jump Desktop–远程桌面</p>
+</li>
+<li><p>Karabiner-Elements–键盘调节神器</p>
+</li>
+<li><p>Keka–解压神器</p>
+</li>
+<li><p>Yoink–暂放文件</p>
+</li>
+<li><p>Bartender 4–任务栏管理神器</p>
+</li>
+<li><p>Amphetamine–关屏神器</p>
+</li>
+<li><p>IINA–视频播放神器</p>
+</li>
+<li><p>Permute 3–格式转换神器</p>
+</li>
+<li><p>iRight Mouse Pro–多功能右键软件</p>
+</li>
+<li><p>BlackHole–录屏声卡插件</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>小技巧</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>M1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mac不能编辑Users文件夹内文件的解决方法</title>
+    <url>/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Mac不能编辑Users文件夹内文件的解决方法"><a href="#Mac不能编辑Users文件夹内文件的解决方法" class="headerlink" title="Mac不能编辑Users文件夹内文件的解决方法"></a>Mac不能编辑Users文件夹内文件的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。</p>
+<span id="more"></span>
+
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.37.6yk7do2d6rs0.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
+
+<p>点击Unlock后没有效果</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.46.esic4xnx1j4.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>选中你要编辑文件所在的文件夹（只要根目录里的文件夹就行），command + i 或右键<strong>显示简介</strong>，找到<strong>共享与权限</strong>一栏。打开右下角的锁，点击左下角的 <strong>+</strong> 将你正在登入使用的用户加入，将其权限改为<strong>读与写</strong>。</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.32.33.1aphhmvxfvkw.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
+
+<p>最后点三个点，将其应用到包含的项目，再重新打开要编辑的文件时就发现可以编辑了。</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.33.00.501zzuwnytc0.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
+
+]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Xcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VScode安装损坏解决方法</title>
+    <url>/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VScode安装损坏解决方法"><a href="#VScode安装损坏解决方法" class="headerlink" title="VScode安装损坏解决方法"></a>VScode安装损坏解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”</p>
+<span id="more"></span>
+
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/01.4sz2r9sjfje0.png" alt="01" style="zoom:50%;" />
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在VScode插件中搜索 Fix VSCode Checksums，下载此插件。</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/02.4cpiegy9bv20.png" alt="02" style="zoom:50%;" />
+
+<p>按 ⌘⇧P 唤出命令面板（Command Palette），输入 &gt;Fix Checksums: Apply，重启VScode</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/03.3d9ikwt7z5s0.png" alt="03" style="zoom:50%;" />]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>VScode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用终端部署hexo博客后出现报错的解决方法</title>
+    <url>/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用终端部署hexo博客后出现报错的解决方法"><a href="#用终端部署hexo博客后出现报错的解决方法" class="headerlink" title="用终端部署hexo博客后出现报错的解决方法"></a>用终端部署hexo博客后出现报错的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><span id="more"></span>
+
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>通过 npm 下载缺失文件 hexo-deployer-git</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Hexo</tag>
+        <tag>ERROR报错</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>终端使用Vim编辑时怎么退出</title>
+    <url>/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="终端使用Vim编辑时怎么退出"><a href="#终端使用Vim编辑时怎么退出" class="headerlink" title="终端使用Vim编辑时怎么退出"></a>终端使用Vim编辑时怎么退出</h2><h3 id="进入vim"><a href="#进入vim" class="headerlink" title="进入vim"></a>进入vim</h3><span id="more"></span>
+
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">vim &lt;file name&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="退出vi-Last-line-mode-末行模式"><a href="#退出vi-Last-line-mode-末行模式" class="headerlink" title="退出vi(Last line mode 末行模式)"></a>退出vi(Last line mode 末行模式)</h3><p>​    先按 ESC 键，输入一下命令退出</p>
+<h3 id="1"><a href="#1" class="headerlink" title="1"></a><strong>1</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w <span class="comment">#此时你是将接下来的新内容来替换原内容</span></span><br></pre></td></tr></table></figure></div>
+
+<p>​    但此时还没有退出vi，需要输入一下指令</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w &lt;filename&gt; <span class="comment">#存入指定文件</span></span><br><span class="line"></span><br><span class="line">:q <span class="comment">#保存并退出</span></span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h3 id="2"><a href="#2" class="headerlink" title="2"></a><strong>2</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:wq <span class="comment">#就是将上面的两步操作合成一步来完成</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<p>这两条指令都与第二个同理</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:x </span><br><span class="line"></span><br><span class="line">ZZ</span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h3 id="3"><a href="#3" class="headerlink" title="3"></a><strong>3</strong></h3><p>强行退出vi，使被更新的内容不写回文件中。仅键入命令:q时，如vi发现文本内容已被更改，将提示用户使用“:quit”命令退出。</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:q! (或:quit)</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Vim</tag>
+        <tag>终端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML基础笔记</title>
     <url>/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="知识点提及"><a href="#知识点提及" class="headerlink" title="知识点提及"></a><strong>知识点提及</strong></h1><h4 id="Web-标准的构成（重点）"><a href="#Web-标准的构成（重点）" class="headerlink" title="Web 标准的构成（重点）"></a>Web 标准的构成（重点）</h4><p>​    主要包括<strong><span style="color:#82B1DB;">结构</span></strong>（structure框架<u>html</u>）、<strong><span style="color:#82B1DB;">结构</span></strong>（presentation颜色<u>css</u>）、<strong><span style="color:#82B1DB;">结构</span></strong>（behavior交互<u>js</u>），要互相<strong><span style="color:#82B1DB;">分离</span></strong>。</p>
@@ -175,154 +323,6 @@
         <tag>语法</tag>
         <tag>js</tag>
         <tag>编程语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>推荐好用的 M1 软件</title>
-    <url>/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐好用的-M1-软件"><a href="#推荐好用的-M1-软件" class="headerlink" title="推荐好用的 M1 软件"></a>推荐好用的 M1 软件</h2><ol>
-<li><p>NeatDownloadManager–下载器</p>
-</li>
-<li><p>Downie 4–视频下载软件</p>
-</li>
-<li><p>Paste–复制粘贴记录</p>
-<span id="more"></span></li>
-<li><p>Tiles–更好的窗口管理</p>
-</li>
-<li><p>Mos–鼠标滚轮反向</p>
-</li>
-<li><p>MacBooster–电脑管理助手</p>
-</li>
-<li><p>CleanMyMac X–电脑管理助手</p>
-</li>
-<li><p>Brightness Slider–外接屏亮度调节</p>
-</li>
-<li><p>Jump Desktop–远程桌面</p>
-</li>
-<li><p>Karabiner-Elements–键盘调节神器</p>
-</li>
-<li><p>Keka–解压神器</p>
-</li>
-<li><p>Yoink–暂放文件</p>
-</li>
-<li><p>Bartender 4–任务栏管理神器</p>
-</li>
-<li><p>Amphetamine–关屏神器</p>
-</li>
-<li><p>IINA–视频播放神器</p>
-</li>
-<li><p>Permute 3–格式转换神器</p>
-</li>
-<li><p>iRight Mouse Pro–多功能右键软件</p>
-</li>
-<li><p>BlackHole–录屏声卡插件</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>小技巧</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>M1</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mac不能编辑Users文件夹内文件的解决方法</title>
-    <url>/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Mac不能编辑Users文件夹内文件的解决方法"><a href="#Mac不能编辑Users文件夹内文件的解决方法" class="headerlink" title="Mac不能编辑Users文件夹内文件的解决方法"></a>Mac不能编辑Users文件夹内文件的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。</p>
-<span id="more"></span>
-
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.37.6yk7do2d6rs0.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
-
-<p>点击Unlock后没有效果</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.46.esic4xnx1j4.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>选中你要编辑文件所在的文件夹（只要根目录里的文件夹就行），command + i 或右键<strong>显示简介</strong>，找到<strong>共享与权限</strong>一栏。打开右下角的锁，点击左下角的 <strong>+</strong> 将你正在登入使用的用户加入，将其权限改为<strong>读与写</strong>。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.32.33.1aphhmvxfvkw.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
-
-<p>最后点三个点，将其应用到包含的项目，再重新打开要编辑的文件时就发现可以编辑了。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.33.00.501zzuwnytc0.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
-
-]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Xcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VScode安装损坏解决方法</title>
-    <url>/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VScode安装损坏解决方法"><a href="#VScode安装损坏解决方法" class="headerlink" title="VScode安装损坏解决方法"></a>VScode安装损坏解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”</p>
-<span id="more"></span>
-
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/01.4sz2r9sjfje0.png" alt="01" style="zoom:50%;" />
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在VScode插件中搜索 Fix VSCode Checksums，下载此插件。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/02.4cpiegy9bv20.png" alt="02" style="zoom:50%;" />
-
-<p>按 ⌘⇧P 唤出命令面板（Command Palette），输入 &gt;Fix Checksums: Apply，重启VScode</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/03.3d9ikwt7z5s0.png" alt="03" style="zoom:50%;" />]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>VScode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用终端部署hexo博客后出现报错的解决方法</title>
-    <url>/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用终端部署hexo博客后出现报错的解决方法"><a href="#用终端部署hexo博客后出现报错的解决方法" class="headerlink" title="用终端部署hexo博客后出现报错的解决方法"></a>用终端部署hexo博客后出现报错的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>通过 npm 下载缺失文件 hexo-deployer-git</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Hexo</tag>
-        <tag>ERROR报错</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>终端使用Vim编辑时怎么退出</title>
-    <url>/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="终端使用Vim编辑时怎么退出"><a href="#终端使用Vim编辑时怎么退出" class="headerlink" title="终端使用Vim编辑时怎么退出"></a>终端使用Vim编辑时怎么退出</h2><h3 id="进入vim"><a href="#进入vim" class="headerlink" title="进入vim"></a>进入vim</h3><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">vim &lt;file name&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="退出vi-Last-line-mode-末行模式"><a href="#退出vi-Last-line-mode-末行模式" class="headerlink" title="退出vi(Last line mode 末行模式)"></a>退出vi(Last line mode 末行模式)</h3><p>​    先按 ESC 键，输入一下命令退出</p>
-<h3 id="1"><a href="#1" class="headerlink" title="1"></a><strong>1</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w <span class="comment">#此时你是将接下来的新内容来替换原内容</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​    但此时还没有退出vi，需要输入一下指令</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w &lt;filename&gt; <span class="comment">#存入指定文件</span></span><br><span class="line"></span><br><span class="line">:q <span class="comment">#保存并退出</span></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h3 id="2"><a href="#2" class="headerlink" title="2"></a><strong>2</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:wq <span class="comment">#就是将上面的两步操作合成一步来完成</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<p>这两条指令都与第二个同理</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:x </span><br><span class="line"></span><br><span class="line">ZZ</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h3 id="3"><a href="#3" class="headerlink" title="3"></a><strong>3</strong></h3><p>强行退出vi，使被更新的内容不写回文件中。仅键入命令:q时，如vi发现文本内容已被更改，将提示用户使用“:quit”命令退出。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:q! (或:quit)</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Vim</tag>
-        <tag>终端</tag>
       </tags>
   </entry>
 </search>
