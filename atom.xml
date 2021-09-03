@@ -6,7 +6,7 @@
   <link href="https://sharkpan.github.io/atom.xml" rel="self"/>
   
   <link href="https://sharkpan.github.io/"/>
-  <updated>2021-08-21T11:56:17.055Z</updated>
+  <updated>2021-09-03T09:50:25.301Z</updated>
   <id>https://sharkpan.github.io/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode复制剪切粘贴时变为Insert的解决方法</title>
+    <link href="https://sharkpan.github.io/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://sharkpan.github.io/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2021-09-03T08:42:02.307Z</published>
+    <updated>2021-09-03T09:50:25.301Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;VSCode复制剪切粘贴时变为Insert的解决方法&quot;&gt;&lt;a href=&quot;#VSCode复制剪切粘贴时变为Insert的解决方法&quot; class=&quot;headerlink&quot; title=&quot;VSCode复制剪切粘贴时变为Insert的解决方法&quot;&gt;&lt;/a&gt;VSCode复制剪切粘贴时变为Insert的解决方法&lt;/h2&gt;&lt;h3 id=&quot;问题陈述&quot;&gt;&lt;a href=&quot;#问题陈述&quot; class=&quot;headerlink&quot; title=&quot;问题陈述&quot;&gt;&lt;/a&gt;问题陈述&lt;/h3&gt;&lt;p&gt;在 MacOS 环境下，使用VSCode写作时出现 ⌘C 、⌘V、⌘X 会变为NORMAL模式，无法继续书写。或者左下角会有NORMAL 和 INSERT 的字样。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/09/03/Hvwj6ApEBKaNnbs.png&quot; alt=&quot;01.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/09/03/KnUg1kPAlLzsZdS.png&quot; alt=&quot;02.png&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="问题解决" scheme="https://sharkpan.github.io/categories/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+    
+    <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
+    
+    <category term="VScode" scheme="https://sharkpan.github.io/tags/VScode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端自学万人血书</title>
+    <link href="https://sharkpan.github.io/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/"/>
+    <id>https://sharkpan.github.io/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/</id>
+    <published>2021-09-02T07:34:46.040Z</published>
+    <updated>2021-09-03T09:53:45.268Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="课外摘录" scheme="https://sharkpan.github.io/categories/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/"/>
+    
+    
+    <category term="前端" scheme="https://sharkpan.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>VScode快捷键记录</title>
@@ -39,9 +84,9 @@
     
     <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
     
-    <category term="快捷键" scheme="https://sharkpan.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
     <category term="VScode" scheme="https://sharkpan.github.io/tags/VScode/"/>
+    
+    <category term="快捷键" scheme="https://sharkpan.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
@@ -164,10 +209,10 @@
     <link href="https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     <id>https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</id>
     <published>2021-07-15T03:22:30.463Z</published>
-    <updated>2021-08-21T15:40:54.501Z</updated>
+    <updated>2021-09-03T09:28:44.662Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;知识点提及&quot;&gt;&lt;a href=&quot;#知识点提及&quot; class=&quot;headerlink&quot; title=&quot;知识点提及&quot;&gt;&lt;/a&gt;&lt;strong&gt;知识点提及&lt;/strong&gt;&lt;/h1&gt;&lt;h4 id=&quot;Web-标准的构成（重点）&quot;&gt;&lt;a href=&quot;#Web-标准的构成（重点）&quot; class=&quot;headerlink&quot; title=&quot;Web 标准的构成（重点）&quot;&gt;&lt;/a&gt;Web 标准的构成（重点）&lt;/h4&gt;&lt;p&gt;​    主要包括&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（structure框架&lt;u&gt;html&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（presentation颜色&lt;u&gt;css&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（behavior交互&lt;u&gt;js&lt;/u&gt;），要互相&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;分离&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;
+    <summary type="html">&lt;h1 id=&quot;知识点提及&quot;&gt;&lt;a href=&quot;#知识点提及&quot; class=&quot;headerlink&quot; title=&quot;知识点提及&quot;&gt;&lt;/a&gt;&lt;strong&gt;知识点提及&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;Web-标准的构成（重点）&quot;&gt;&lt;a href=&quot;#Web-标准的构成（重点）&quot; class=&quot;headerlink&quot; title=&quot;Web 标准的构成（重点）&quot;&gt;&lt;/a&gt;Web 标准的构成（重点）&lt;/h2&gt;&lt;p&gt;​    主要包括&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（structure框架&lt;u&gt;html&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;表现&lt;/span&gt;&lt;/strong&gt;（presentation颜色&lt;u&gt;css&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;行为&lt;/span&gt;&lt;/strong&gt;（behavior交互&lt;u&gt;js&lt;/u&gt;），要互相&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;分离&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4 id=&quot;HTML语法规范&quot;&gt;&lt;a href=&quot;#HTML语法规范&quot; class=&quot;headerlink&quot; title=&quot;HTML语法规范&quot;&gt;&lt;/a&gt;HTML语法规范&lt;/h4&gt;&lt;p&gt;​    &lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;单标签&lt;/span&gt;&lt;/strong&gt;极少出现&lt;/p&gt;</summary>
     
     
@@ -212,7 +257,7 @@
     <link href="https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/"/>
     <id>https://sharkpan.github.io/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/</id>
     <published>2021-07-13T08:41:23.402Z</published>
-    <updated>2021-08-21T15:40:48.385Z</updated>
+    <updated>2021-08-21T16:17:18.830Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Markdown-语法&quot;&gt;&lt;a href=&quot;#Markdown-语法&quot; class=&quot;headerlink&quot; title=&quot;Markdown 语法&quot;&gt;&lt;/a&gt;&lt;strong&gt;Markdown 语法&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;1、代码块&quot;&gt;&lt;a href=&quot;#1、代码块&quot; class=&quot;headerlink&quot; title=&quot;1、代码块&quot;&gt;&lt;/a&gt;1、代码块&lt;/h2&gt;</summary>
