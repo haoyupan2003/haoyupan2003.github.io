@@ -1,405 +1,314 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>推荐好用的 M1 软件</title>
-    <url>/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐好用的-M1-软件"><a href="#推荐好用的-M1-软件" class="headerlink" title="推荐好用的 M1 软件"></a>推荐好用的 M1 软件</h2><ol>
-<li><p>NeatDownloadManager–下载器</p>
-</li>
-<li><p>Downie 4–视频下载软件</p>
-</li>
-<li><p>Paste–复制粘贴记录</p>
-<span id="more"></span></li>
-<li><p>Tiles–更好的窗口管理</p>
-</li>
-<li><p>Mos–鼠标滚轮反向</p>
-</li>
-<li><p>MacBooster–电脑管理助手</p>
-</li>
-<li><p>CleanMyMac X–电脑管理助手</p>
-</li>
-<li><p>Brightness Slider–外接屏亮度调节</p>
-</li>
-<li><p>Jump Desktop–远程桌面</p>
-</li>
-<li><p>Karabiner-Elements–键盘调节神器</p>
-</li>
-<li><p>Keka–解压神器</p>
-</li>
-<li><p>Yoink–暂放文件</p>
-</li>
-<li><p>Bartender 4–任务栏管理神器</p>
-</li>
-<li><p>Amphetamine–关屏神器</p>
-</li>
-<li><p>IINA–视频播放神器</p>
-</li>
-<li><p>Permute 3–格式转换神器</p>
-</li>
-<li><p>iRight Mouse Pro–多功能右键软件</p>
-</li>
-<li><p>BlackHole–录屏声卡插件</p>
-</li>
-</ol>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>VSCode复制剪切粘贴时变为Insert的解决方法</title>
+      <link href="/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VSCode复制剪切粘贴时变为Insert的解决方法"><a href="#VSCode复制剪切粘贴时变为Insert的解决方法" class="headerlink" title="VSCode复制剪切粘贴时变为Insert的解决方法"></a>VSCode复制剪切粘贴时变为Insert的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在 MacOS 环境下，使用VSCode写作时出现 ⌘C 、⌘V、⌘X 会变为NORMAL模式，无法继续书写。或者左下角会有NORMAL 和 INSERT 的字样。</p><span id="more"></span><p><img src="https://i.loli.net/2021/09/03/Hvwj6ApEBKaNnbs.png" alt="01.png"></p><p><img src="https://i.loli.net/2021/09/03/KnUg1kPAlLzsZdS.png" alt="02.png"></p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>目前这种状态说明 VSCode 正在使用 Vim 编辑器进行编辑，所以只要删除或禁用，然后重启即可。</p><p>打开 VSCode 输入快捷键 ⌘⇧X 打开扩展页面，搜索 Vim。</p><img src="https://i.loli.net/2021/09/03/AQokfZmgl47tdUF.png" alt="03.png" style="zoom:50%;" />]]></content>
+      
+      
       <categories>
-        <category>小技巧</category>
+          
+          <category> 问题解决 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>M1</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mac不能编辑Users文件夹内文件的解决方法</title>
-    <url>/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Mac不能编辑Users文件夹内文件的解决方法"><a href="#Mac不能编辑Users文件夹内文件的解决方法" class="headerlink" title="Mac不能编辑Users文件夹内文件的解决方法"></a>Mac不能编辑Users文件夹内文件的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。</p>
-<span id="more"></span>
-
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.37.6yk7do2d6rs0.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
-
-<p>点击Unlock后没有效果</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.46.esic4xnx1j4.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>选中你要编辑文件所在的文件夹（只要根目录里的文件夹就行），command + i 或右键<strong>显示简介</strong>，找到<strong>共享与权限</strong>一栏。打开右下角的锁，点击左下角的 <strong>+</strong> 将你正在登入使用的用户加入，将其权限改为<strong>读与写</strong>。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.32.33.1aphhmvxfvkw.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
-
-<p>最后点三个点，将其应用到包含的项目，再重新打开要编辑的文件时就发现可以编辑了。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.33.00.501zzuwnytc0.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
-
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> VScode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>前端自学万人血书</title>
+      <link href="/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/"/>
+      <url>/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前端自学万人血书"><a href="#前端自学万人血书" class="headerlink" title="前端自学万人血书"></a>前端自学万人血书</h1><span id="more"></span><h2 id="书籍推荐"><a href="#书籍推荐" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>1.HTML - Head First HTML 与 CSS （有趣配图）<br>             - HTML5权威指南 （全面性高，内容较多）<br>   教程    <a href="https://www.w3school.com.cn/h.asp">https://www.w3school.com.cn/h.asp</a><br>              菜鸟教程<br>2.CSS     - CSS权威指南（当工具书）<br>              - CSS揭秘（实践教程，启发性）<br>     教程同样 w3school&amp;菜鸟<br>3.JavaScript  -  你不知道的JavaScript（对深度概念讲解）<br>                     - JavaScript DOM编程艺术（入门）<br>                     - JavaScript 高级程序设计（红宝书，权威入门书籍，全面)<br>                     - JavaScript权威指南（全面性高）<br>  教程 菜鸟&amp;现代JavaScript教程（<a href="https://zh.javascript.info/">https://zh.javascript.info/</a>)<br>4.ES  - ECMAScript6入门教程<br>         - 深入理解ES6（系统地介绍）<br>5.TS   -英文文档 <a href="https://www.typescriptlang.org/docs">https://www.typescriptlang.org/docs</a><br>          -中文文档 <a href="https://www.tslang.cn/docs/home.html">https://www.tslang.cn/docs/home.html</a><br>          -深入理解TypeScript<br>6.数据结构与算法<br>   -学习JavaScript数据结构与算法「第三版」<br>7.设计模式<br>  -JavaScript设计模式（灵活运用，进阶时需要）<br>8.网络协议<br>  -图解TCP/IP，图解HTTP（非常有趣）<br>  -HTTP权威指南（不知包括http协议，扩大知识面与进阶时需要）<br>9.NodeJS<br>  -中文文档 <a href="http://nodejs.cn/api/">http://nodejs.cn/api/</a><br>  -Node.js实战（硬要找教材，可以看看）<br>  -深入浅出Node.js（进阶，想深入了解可看）<br>10.框架<br>  -首推官方文档<br>    Vue.js中文官方文档：<a href="https://vuejs.bootcss.com/guide/">https://vuejs.bootcss.com/guide/</a><br>    React.js官方文档：<a href="https://reactjs.org/docs/getting-started.html">https://reactjs.org/docs/getting-started.html</a><br>    React.js小书：<a href="https://github.com/huzidaha/react-naive-book">https://github.com/huzidaha/react-naive-book</a><br>    Webpack中文官方文档：<a href="https://www.webpackjs.com/concepts/">https://www.webpackjs.com/concepts/</a><br>    Sass中文文档：<a href="https://sass.bootcss.com/documentation">https://sass.bootcss.com/documentation</a><br>    Less中文文档：<a href="http://lesscss.cn/usage/">http://lesscss.cn/usage/</a><br>    Stylus中文文档：<a href="https://stylus.bootcss.com/">https://stylus.bootcss.com/</a><br>11.性能<br>  -Web性能权威指南（TCP/IP内容先熟悉后，进阶时食用）</p><p>​                        </p><p>​                                                                （此笔记摘录于<a href="https://www.bilibili.com/video/BV1mr4y1w7xQ?spm_id_from=333.999.0.0">CodeSheep的视频</a>）</p>]]></content>
+      
+      
       <categories>
-        <category>问题解决</category>
+          
+          <category> 课外摘录 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Xcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VSCode复制剪切粘贴时变为Insert的解决方法</title>
-    <url>/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VSCode复制剪切粘贴时变为Insert的解决方法"><a href="#VSCode复制剪切粘贴时变为Insert的解决方法" class="headerlink" title="VSCode复制剪切粘贴时变为Insert的解决方法"></a>VSCode复制剪切粘贴时变为Insert的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在 MacOS 环境下，使用VSCode写作时出现 ⌘C 、⌘V、⌘X 会变为NORMAL模式，无法继续书写。或者左下角会有NORMAL 和 INSERT 的字样。</p>
-<p><img src="https://i.loli.net/2021/09/03/Hvwj6ApEBKaNnbs.png" alt="01.png"></p>
-<p><img src="https://i.loli.net/2021/09/03/KnUg1kPAlLzsZdS.png" alt="02.png"></p>
-<span id="more"></span>
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>目前这种状态说明 VSCode 正在使用 Vim 编辑器进行编辑，所以只要删除或禁用，然后重启即可。</p>
-<p>打开 VSCode 输入快捷键 ⌘⇧X 打开扩展页面，搜索 Vim。</p>
-<img src="https://i.loli.net/2021/09/03/AQokfZmgl47tdUF.png" alt="03.png" style="zoom:50%;" />
-
-
-
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VScode快捷键记录</title>
+      <link href="/2021/08/18/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/VSCode%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/"/>
+      <url>/2021/08/18/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/VSCode%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>⚠️注释：⌘=Command; ⌥=Option; ^=Control; ⇧=Shift; ⇪=CapLock; ⎋=Escape</p><h1 id="HTML篇"><a href="#HTML篇" class="headerlink" title="HTML篇"></a><strong>HTML篇</strong></h1><ul><li><p>! +Tab：可以快速制作骨架</p></li><li><p>⌥⇧F：实现代码对齐</p></li><li><p>⌘ + /：添加/取消注释（另外还有 ⌘KC &amp; ⌘KU）</p><span id="more"></span></li><li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// 输入 div*3 , 回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li><li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">// 输入 div&#123;$&#125;*3 ，回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>1<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>2<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>3<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li><li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 给标签加id和class</span><br><span class="line">// 输入 div#tagId ，回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;tagId&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">// 输入 div.tagClass ，回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tagClass&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li><li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line">// 多层嵌套标签用&gt;右尖括号，还可以任意组合。</span><br><span class="line">span&gt;div&gt;section</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">span&gt;div*3&gt;section</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">span&gt;div&#123;$&#125;*3&gt;section</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        1</span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        2</span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        3</span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">span&gt;div*3&gt;section&#123;$&#125;*3</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>1<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>2<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>3<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>1<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>2<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>3<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>1<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>2<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>3<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li></ul>]]></content>
+      
+      
       <categories>
-        <category>问题解决</category>
+          
+          <category> 课外摘录 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>VScode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VScode安装损坏解决方法</title>
-    <url>/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VScode安装损坏解决方法"><a href="#VScode安装损坏解决方法" class="headerlink" title="VScode安装损坏解决方法"></a>VScode安装损坏解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”</p>
-<span id="more"></span>
-
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/01.4sz2r9sjfje0.png" alt="01" style="zoom:50%;" />
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在VScode插件中搜索 Fix VSCode Checksums，下载此插件。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/02.4cpiegy9bv20.png" alt="02" style="zoom:50%;" />
-
-<p>按 ⌘⇧P 唤出命令面板（Command Palette），输入 &gt;Fix Checksums: Apply，重启VScode</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/03.3d9ikwt7z5s0.png" alt="03" style="zoom:50%;" />]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> 快捷键 </tag>
+            
+            <tag> VScode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VScode安装损坏解决方法</title>
+      <link href="/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VScode安装损坏解决方法"><a href="#VScode安装损坏解决方法" class="headerlink" title="VScode安装损坏解决方法"></a>VScode安装损坏解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”</p><span id="more"></span><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/01.4sz2r9sjfje0.png" alt="01" style="zoom:50%;" /><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在VScode插件中搜索 Fix VSCode Checksums，下载此插件。</p><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/02.4cpiegy9bv20.png" alt="02" style="zoom:50%;" /><p>按 ⌘⇧P 唤出命令面板（Command Palette），输入 &gt;Fix Checksums: Apply，重启VScode</p><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/03.3d9ikwt7z5s0.png" alt="03" style="zoom:50%;" />]]></content>
+      
+      
       <categories>
-        <category>问题解决</category>
+          
+          <category> 问题解决 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>VScode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用终端部署hexo博客后出现报错的解决方法</title>
-    <url>/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用终端部署hexo博客后出现报错的解决方法"><a href="#用终端部署hexo博客后出现报错的解决方法" class="headerlink" title="用终端部署hexo博客后出现报错的解决方法"></a>用终端部署hexo博客后出现报错的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>通过 npm 下载缺失文件 hexo-deployer-git</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> VScode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>用终端部署hexo博客后出现报错的解决方法</title>
+      <link href="/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用终端部署hexo博客后出现报错的解决方法"><a href="#用终端部署hexo博客后出现报错的解决方法" class="headerlink" title="用终端部署hexo博客后出现报错的解决方法"></a>用终端部署hexo博客后出现报错的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><span id="more"></span><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure></div><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>通过 npm 下载缺失文件 hexo-deployer-git</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
       <categories>
-        <category>问题解决</category>
+          
+          <category> 问题解决 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Hexo</tag>
-        <tag>ERROR报错</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>终端使用Vim编辑时怎么退出</title>
-    <url>/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="终端使用Vim编辑时怎么退出"><a href="#终端使用Vim编辑时怎么退出" class="headerlink" title="终端使用Vim编辑时怎么退出"></a>终端使用Vim编辑时怎么退出</h2><h3 id="进入vim"><a href="#进入vim" class="headerlink" title="进入vim"></a>进入vim</h3><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">vim &lt;file name&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="退出vi-Last-line-mode-末行模式"><a href="#退出vi-Last-line-mode-末行模式" class="headerlink" title="退出vi(Last line mode 末行模式)"></a>退出vi(Last line mode 末行模式)</h3><p>​    先按 ESC 键，输入一下命令退出</p>
-<h3 id="1"><a href="#1" class="headerlink" title="1"></a><strong>1</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w <span class="comment">#此时你是将接下来的新内容来替换原内容</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​    但此时还没有退出vi，需要输入一下指令</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w &lt;filename&gt; <span class="comment">#存入指定文件</span></span><br><span class="line"></span><br><span class="line">:q <span class="comment">#保存并退出</span></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h3 id="2"><a href="#2" class="headerlink" title="2"></a><strong>2</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:wq <span class="comment">#就是将上面的两步操作合成一步来完成</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<p>这两条指令都与第二个同理</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:x </span><br><span class="line"></span><br><span class="line">ZZ</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h3 id="3"><a href="#3" class="headerlink" title="3"></a><strong>3</strong></h3><p>强行退出vi，使被更新的内容不写回文件中。仅键入命令:q时，如vi发现文本内容已被更改，将提示用户使用“:quit”命令退出。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:q! (或:quit)</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> ERROR报错 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac不能编辑Users文件夹内文件的解决方法</title>
+      <link href="/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Mac不能编辑Users文件夹内文件的解决方法"><a href="#Mac不能编辑Users文件夹内文件的解决方法" class="headerlink" title="Mac不能编辑Users文件夹内文件的解决方法"></a>Mac不能编辑Users文件夹内文件的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。</p><span id="more"></span><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.37.6yk7do2d6rs0.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" /><p>点击Unlock后没有效果</p><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.46.esic4xnx1j4.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" /><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>选中你要编辑文件所在的文件夹（只要根目录里的文件夹就行），command + i 或右键<strong>显示简介</strong>，找到<strong>共享与权限</strong>一栏。打开右下角的锁，点击左下角的 <strong>+</strong> 将你正在登入使用的用户加入，将其权限改为<strong>读与写</strong>。</p><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.32.33.1aphhmvxfvkw.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" /><p>最后点三个点，将其应用到包含的项目，再重新打开要编辑的文件时就发现可以编辑了。</p><img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.33.00.501zzuwnytc0.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />]]></content>
+      
+      
       <categories>
-        <category>问题解决</category>
+          
+          <category> 问题解决 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Vim</tag>
-        <tag>终端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML基础笔记</title>
-    <url>/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="知识点提及"><a href="#知识点提及" class="headerlink" title="知识点提及"></a><strong>知识点提及</strong></h1><h2 id="Web-标准的构成（重点）"><a href="#Web-标准的构成（重点）" class="headerlink" title="Web 标准的构成（重点）"></a>Web 标准的构成（重点）</h2><p>​    主要包括<strong><span style="color:#82B1DB;">结构</span></strong>（structure框架<u>html</u>）、<strong><span style="color:#82B1DB;">表现</span></strong>（presentation颜色<u>css</u>）、<strong><span style="color:#82B1DB;">行为</span></strong>（behavior交互<u>js</u>），要互相<strong><span style="color:#82B1DB;">分离</span></strong>。</p>
-<h4 id="HTML语法规范"><a href="#HTML语法规范" class="headerlink" title="HTML语法规范"></a>HTML语法规范</h4><p>​    <strong><span style="color:#82B1DB;">单标签</span></strong>极少出现</p>
-<span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​    包含关系与并列关系（此处是骨架标签，<strong>需记</strong>）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    键盘敲烂，工资过万</span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​    “! + tab” 自动生成html骨架<br><u>! DOCTYPE = document type</u></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span> // 文档类型声明标签，不属于html，表示在使用html5</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span> //lang标签=language，这是个什么语言的网页</span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span> //字符集（character set）“万国码” 防止出现乱码</span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a><strong>语法</strong></h1><h2 id="语义标签"><a href="#语义标签" class="headerlink" title="语义标签"></a>语义标签</h2><h4 id="标题标签h1-h6"><a href="#标题标签h1-h6" class="headerlink" title="标题标签h1~h6"></a>标题标签h1~h6</h4><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="段落标签"><a href="#段落标签" class="headerlink" title="段落标签"></a>段落标签</h4><p>​        （根据浏览器页面大小，自动换行）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>第一段<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>第二段<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="换行标签"><a href="#换行标签" class="headerlink" title="换行标签"></a>换行标签</h4><p>​        （强制换行）<br>​        <u>br = barter rabbet</u></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="黑体标签"><a href="#黑体标签" class="headerlink" title="黑体标签"></a>黑体标签</h4><p>​        （更推荐使用strong标签，因为在CSS里可以做进一步的美化）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strong</span>&gt;</span>黑体<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">b</span>&gt;</span>黑体<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><p>​        （更推荐使用em标签，语义更强）<br>​        <u>em = emphasize</u></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">em</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><p>​        （更推荐使用del标签，语义更强）<br>​        <u>s/strike = strikethrough</u></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">del</span>&gt;</span>删除线<span class="tag">&lt;/<span class="name">del</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">s</span>&gt;</span>删除线<span class="tag">&lt;/<span class="name">s</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">strike</span>&gt;</span>等同于s<span class="tag">&lt;/<span class="name">strike</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h4><p>​        （更推荐使用ins标签，语义更强）<br>​        <u>ins = inserted text</u></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ins</span>&gt;</span>下划线<span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">u</span>&gt;</span>下划线<span class="tag">&lt;/<span class="name">u</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h2 id="非语义标签"><a href="#非语义标签" class="headerlink" title="非语义标签"></a>非语义标签</h2><h4 id="盒子标签📦"><a href="#盒子标签📦" class="headerlink" title="盒子标签📦"></a>盒子标签📦</h4><p>​        （div是分区，一个div自己占据一整行；span是跨距，一行里可以有很多span。简言之，<span style="color:#82B1DB;">div是大盒子</span>，<span style="color:#82B1DB;">span是小盒子</span>）<br>​        <u>div = division</u>        </p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>占据一整行<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span>一行可以有很多个<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<h4 id="图像标签🌆"><a href="#图像标签🌆" class="headerlink" title="图像标签🌆"></a>图像标签🌆</h4><p>​        （注意是单标签，可改<u>width</u>，<u>height</u>「通常width和height里只改一个，不然会让图片变形」，<u>border</u>「通过CSS修改样式」）<br>​        <u>src = source</u></p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;example.jpg&quot;</span> <span class="attr">width</span>=<span class="string">&quot;10&quot;</span> <span class="attr">height</span>=<span class="string">&quot;10&quot;</span> <span class="attr">border</span>=<span class="string">&quot;10&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​        （当图片无法显示时，以文字替换）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;example.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;这是一个例子&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​        （当鼠标移动到图片上，显示提示文本）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;example.jpg&quot;</span> <span class="attr">title</span>=<span class="string">&quot;看懂了吗👀&quot;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p>​       （<span style="color:#82B1DB">绝对路径的符号 \ ，相对路径的符号 / </span>）</p>
-<h4 id="超链接🔗"><a href="#超链接🔗" class="headerlink" title="超链接🔗"></a>超链接🔗</h4><pre><code>1. 外部链接
-    （href的开头必须是 http:// 或 https://）
-    （target是指用什么方式打开：\_self 为默认值，即在本页打开；\_blank 为在新窗口打开）
-    &lt;u&gt;a = anchor        href = hypertext reference&lt;/u&gt;
-</code></pre>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.example.com&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>This is a link.<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<ol start="2">
-<li>内部链接</li>
-</ol>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;nextPage.html&quot;</span>&gt;</span>Click to go to next page.<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​        （空链接的 href 值为 “#”）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>未完成页面<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​        （下载链接的 href 值为 .exe 或 .zip 等压缩包文件名称）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;document.zip&quot;</span>&gt;</span>Download<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​        （以图片为载体的超链接）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.example.com&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;img.jpg&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​        内部链接中一个比较特殊的形式：锚点链接<br>​        （立刻跳转到本页面的指定位置，注意设立标签需要 # ）</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#third&quot;</span>&gt;</span>第三点：法治社会<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">id</span>=<span class="string">&quot;third&quot;</span>&gt;</span>第三点：法治社会<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Xcode </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>终端使用Vim编辑时怎么退出</title>
+      <link href="/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/"/>
+      <url>/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="终端使用Vim编辑时怎么退出"><a href="#终端使用Vim编辑时怎么退出" class="headerlink" title="终端使用Vim编辑时怎么退出"></a>终端使用Vim编辑时怎么退出</h2><h3 id="进入vim"><a href="#进入vim" class="headerlink" title="进入vim"></a>进入vim</h3><span id="more"></span><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim &lt;file name&gt;</span><br></pre></td></tr></table></figure></div><h3 id="退出vi-Last-line-mode-末行模式"><a href="#退出vi-Last-line-mode-末行模式" class="headerlink" title="退出vi(Last line mode 末行模式)"></a>退出vi(Last line mode 末行模式)</h3><p>​    先按 ESC 键，输入一下命令退出</p><h3 id="1"><a href="#1" class="headerlink" title="1"></a><strong>1</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:w <span class="comment">#此时你是将接下来的新内容来替换原内容</span></span><br></pre></td></tr></table></figure></div><p>​    但此时还没有退出vi，需要输入一下指令</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:w &lt;filename&gt; <span class="comment">#存入指定文件</span></span><br><span class="line"></span><br><span class="line">:q <span class="comment">#保存并退出</span></span><br></pre></td></tr></table></figure></div><hr><h3 id="2"><a href="#2" class="headerlink" title="2"></a><strong>2</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">:wq <span class="comment">#就是将上面的两步操作合成一步来完成</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div><p>这两条指令都与第二个同理</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:x </span><br><span class="line"></span><br><span class="line">ZZ</span><br></pre></td></tr></table></figure></div><hr><h3 id="3"><a href="#3" class="headerlink" title="3"></a><strong>3</strong></h3><p>强行退出vi，使被更新的内容不写回文件中。仅键入命令:q时，如vi发现文本内容已被更改，将提示用户使用“:quit”命令退出。</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:q! (或:quit)</span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 问题解决 </category>
+          
       </categories>
-      <tags>
-        <tag>语法</tag>
-        <tag>HTML</tag>
-        <tag>标记语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown 语法</title>
-    <url>/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a><strong>Markdown 语法</strong></h1><h2 id="1、代码块"><a href="#1、代码块" class="headerlink" title="1、代码块"></a>1、代码块</h2><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PYTHON"><figure class="iseeu highlight /python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通过 &quot; ``` + 语言名称 &quot; 就可以在文档中创建一个代码块</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h2 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//标题语法</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></div>
-
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
-<h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//加粗</span><br><span class="line"><span class="strong">**哈哈哈**</span></span><br><span class="line">//代码高亮显示</span><br><span class="line">==Sharkpan==</span><br><span class="line">//删除线</span><br><span class="line">~~我喜欢你~~</span><br><span class="line">//斜体</span><br><span class="line"><span class="emphasis">*斜体内容*</span></span><br></pre></td></tr></table></figure></div>
-
-<p>//加粗<br><strong>哈哈哈</strong><br>//代码高亮显示<br>==Sharkpan==<br>//删除线<br><del>我喜欢你</del><br>//斜体<br><em>斜体内容</em></p>
-<hr>
-<h2 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//引用语法</span><br><span class="line">&gt;你是谁</span><br><span class="line">&gt;&gt;你在哪里</span><br><span class="line">&gt;&gt;&gt;你要做什么</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>你是谁</p>
-<blockquote>
-<p>你在哪里</p>
-<blockquote>
-<p>你要做什么</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<h2 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">//分割线1</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">//分割线2</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p>//分割线1</p>
-<hr>
-<p>//分割线2</p>
-<hr>
-<h2 id="6、图片插入"><a href="#6、图片插入" class="headerlink" title="6、图片插入"></a>6、图片插入</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//在线图片与本地图片</span><br><span class="line">![<span class="string">图片的名字</span>](<span class="link">/图片路径或地址</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p><img src="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80" alt=" "></p>
-<hr>
-<h2 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//超链接语法，在typora中需要按住cmd点击</span><br><span class="line">[<span class="string">unsplash</span>](<span class="link">https://unsplash.com/</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p>//超链接语法<br><a href="https://unsplash.com/">unsplash</a></p>
-<hr>
-<h2 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//无序列表</span><br><span class="line"><span class="bullet">-</span> 目录一</span><br><span class="line"><span class="bullet">-</span> 目录二</span><br><span class="line"><span class="bullet">-</span> 目录三</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h2 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h2><p>右键插入表格</p>
-<hr>
-<h2 id="10、字体颜色（通过HTML与CSS实现）"><a href="#10、字体颜色（通过HTML与CSS实现）" class="headerlink" title="10、字体颜色（通过HTML与CSS实现）"></a>10、字体颜色（通过HTML与CSS实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#82B1DB;&quot;</span>&gt;</span></span>看看我是什么颜色！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#FF3D00;&quot;</span>&gt;</span></span>我还能黑体！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p><span style="color:#82B1DB;">看看我是什么颜色！</span></p>
-<p><strong><span style="color:#FF3D00;">我还能黑体！</span></strong></p>
-<hr>
-<h2 id="11、页面内跳转（通过HTML实现）"><a href="#11、页面内跳转（通过HTML实现）" class="headerlink" title="11、页面内跳转（通过HTML实现）"></a>11、页面内跳转（通过HTML实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#jump_1&quot;</span>&gt;</span></span>点击页面内跳转<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;jump_1&quot;</span>&gt;</span></span>我是页面内跳转到的位置<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p><a href="#jump_1">点击页面内跳转</a></p>
-<p><a id="jump_1">我是页面内跳转到的位置</a></p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> Vim </tag>
+            
+            <tag> 终端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>推荐好用的 M1 软件</title>
+      <link href="/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/"/>
+      <url>/2021/07/28/%E5%B0%8F%E6%8A%80%E5%B7%A7/%E6%8E%A8%E8%8D%90%E5%A5%BD%E7%94%A8%E7%9A%84%20M1%20%E8%BD%AF%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="推荐好用的-M1-软件"><a href="#推荐好用的-M1-软件" class="headerlink" title="推荐好用的 M1 软件"></a>推荐好用的 M1 软件</h2><ol><li><p>NeatDownloadManager–下载器</p></li><li><p>Downie 4–视频下载软件</p></li><li><p>Paste–复制粘贴记录</p><span id="more"></span></li><li><p>Tiles–更好的窗口管理</p></li><li><p>Mos–鼠标滚轮反向</p></li><li><p>MacBooster–电脑管理助手</p></li><li><p>CleanMyMac X–电脑管理助手</p></li><li><p>Brightness Slider–外接屏亮度调节</p></li><li><p>Jump Desktop–远程桌面</p></li><li><p>Karabiner-Elements–键盘调节神器</p></li><li><p>Keka–解压神器</p></li><li><p>Yoink–暂放文件</p></li><li><p>Bartender 4–任务栏管理神器</p></li><li><p>Amphetamine–关屏神器</p></li><li><p>IINA–视频播放神器</p></li><li><p>Permute 3–格式转换神器</p></li><li><p>iRight Mouse Pro–多功能右键软件</p></li><li><p>BlackHole–录屏声卡插件</p></li></ol>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 小技巧 </category>
+          
       </categories>
-      <tags>
-        <tag>语法</tag>
-        <tag>标记语言</tag>
-        <tag>md</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>尚硅谷JS笔记</title>
-    <url>/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B0%9A%E7%A1%85%E8%B0%B7JS%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="001-JS简介"><a href="#001-JS简介" class="headerlink" title="001-JS简介"></a>001-JS简介</h1><p>NetScape开发了一门语言叫LiveScript用于自家的Navigator浏览器。</p>
-<p>Sun公司来了，Java在当时火，就改名叫JavaScript。</p>
-<span id="more"></span>
-
-<p>最早用于作前端验证的，但现在已经可以做一些动态网页和后端服务器的开发</p>
-<p>之后，NetScape因无法与Microsoft竞争，从而将JavaScript开源，与Microsoft的JScript一同使用ECMAScript的标准，简称ES 。一般情况下ES=JS</p>
-<hr>
-<h1 id="002-Hello-World"><a href="#002-Hello-World" class="headerlink" title="002-Hello World"></a>002-Hello World</h1><ul>
-<li>JS代码需要编写到script标签中, type=”text/javascript”是默认值，可不写</li>
-</ul>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>控制浏览器弹出一个警告框</li>
-</ul>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="code"><pre><span class="line">alert(<span class="string">&quot;这是我第一行JS代码&quot;</span>);</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>让计算机在页面中输出一个内容，document.write()可以向body中输出一个内容</li>
-</ul>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.write(<span class="string">&quot;你看我出不出来～～&quot;</span>);</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>向控制台输出一个内容</li>
-</ul>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&quot;你猜我在哪里出来呢？&quot;</span>);</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h1 id="003"><a href="#003" class="headerlink" title="003-"></a>003-</h1>]]></content>
+      
+      
+        <tags>
+            
+            <tag> Mac </tag>
+            
+            <tag> M1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML基础笔记</title>
+      <link href="/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+      <url>/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="知识点提及"><a href="#知识点提及" class="headerlink" title="知识点提及"></a><strong>知识点提及</strong></h1><h2 id="Web-标准的构成（重点）"><a href="#Web-标准的构成（重点）" class="headerlink" title="Web 标准的构成（重点）"></a>Web 标准的构成（重点）</h2><p>​    主要包括<strong><span style="color:#82B1DB;">结构</span></strong>（structure框架<u>html</u>）、<strong><span style="color:#82B1DB;">表现</span></strong>（presentation颜色<u>css</u>）、<strong><span style="color:#82B1DB;">行为</span></strong>（behavior交互<u>js</u>），要互相<strong><span style="color:#82B1DB;">分离</span></strong>。</p><h4 id="HTML语法规范"><a href="#HTML语法规范" class="headerlink" title="HTML语法规范"></a>HTML语法规范</h4><p>​    <strong><span style="color:#82B1DB;">单标签</span></strong>极少出现</p><span id="more"></span><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br></pre></td></tr></table></figure></div><p>​    包含关系与并列关系（此处是骨架标签，<strong>需记</strong>）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span><span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    键盘敲烂，工资过万</span><br><span class="line">  <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div><p>​    “! + tab” 自动生成html骨架<br><u>! DOCTYPE = document type</u></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span> // 文档类型声明标签，不属于html，表示在使用html5</span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span> //lang标签=language，这是个什么语言的网页</span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span> //字符集（character set）“万国码” 防止出现乱码</span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure></div><hr><h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a><strong>语法</strong></h1><h2 id="语义标签"><a href="#语义标签" class="headerlink" title="语义标签"></a>语义标签</h2><h4 id="标题标签h1-h6"><a href="#标题标签h1-h6" class="headerlink" title="标题标签h1~h6"></a>标题标签h1~h6</h4><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span><span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="段落标签"><a href="#段落标签" class="headerlink" title="段落标签"></a>段落标签</h4><p>​        （根据浏览器页面大小，自动换行）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>第一段<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>第二段<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="换行标签"><a href="#换行标签" class="headerlink" title="换行标签"></a>换行标签</h4><p>​        （强制换行）<br>​        <u>br = barter rabbet</u></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="黑体标签"><a href="#黑体标签" class="headerlink" title="黑体标签"></a>黑体标签</h4><p>​        （更推荐使用strong标签，因为在CSS里可以做进一步的美化）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">strong</span>&gt;</span>黑体<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">b</span>&gt;</span>黑体<span class="tag">&lt;/<span class="name">b</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><p>​        （更推荐使用em标签，语义更强）<br>​        <u>em = emphasize</u></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">em</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">em</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">i</span>&gt;</span>斜体<span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><p>​        （更推荐使用del标签，语义更强）<br>​        <u>s/strike = strikethrough</u></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">del</span>&gt;</span>删除线<span class="tag">&lt;/<span class="name">del</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">s</span>&gt;</span>删除线<span class="tag">&lt;/<span class="name">s</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">strike</span>&gt;</span>等同于s<span class="tag">&lt;/<span class="name">strike</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h4><p>​        （更推荐使用ins标签，语义更强）<br>​        <u>ins = inserted text</u></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ins</span>&gt;</span>下划线<span class="tag">&lt;/<span class="name">ins</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">u</span>&gt;</span>下划线<span class="tag">&lt;/<span class="name">u</span>&gt;</span></span><br></pre></td></tr></table></figure></div><hr><h2 id="非语义标签"><a href="#非语义标签" class="headerlink" title="非语义标签"></a>非语义标签</h2><h4 id="盒子标签📦"><a href="#盒子标签📦" class="headerlink" title="盒子标签📦"></a>盒子标签📦</h4><p>​        （div是分区，一个div自己占据一整行；span是跨距，一行里可以有很多span。简言之，<span style="color:#82B1DB;">div是大盒子</span>，<span style="color:#82B1DB;">span是小盒子</span>）<br>​        <u>div = division</u>        </p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>占据一整行<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span>一行可以有很多个<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></div><h4 id="图像标签🌆"><a href="#图像标签🌆" class="headerlink" title="图像标签🌆"></a>图像标签🌆</h4><p>​        （注意是单标签，可改<u>width</u>，<u>height</u>「通常width和height里只改一个，不然会让图片变形」，<u>border</u>「通过CSS修改样式」）<br>​        <u>src = source</u></p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;example.jpg&quot;</span> <span class="attr">width</span>=<span class="string">&quot;10&quot;</span> <span class="attr">height</span>=<span class="string">&quot;10&quot;</span> <span class="attr">border</span>=<span class="string">&quot;10&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure></div><p>​        （当图片无法显示时，以文字替换）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;example.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;这是一个例子&quot;</span>/&gt;</span></span><br></pre></td></tr></table></figure></div><p>​        （当鼠标移动到图片上，显示提示文本）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;example.jpg&quot;</span> <span class="attr">title</span>=<span class="string">&quot;看懂了吗👀&quot;</span></span></span><br></pre></td></tr></table></figure></div><p>​       （<span style="color:#82B1DB">绝对路径的符号 \ ，相对路径的符号 / </span>）</p><h4 id="超链接🔗"><a href="#超链接🔗" class="headerlink" title="超链接🔗"></a>超链接🔗</h4><pre><code>1. 外部链接    （href的开头必须是 http:// 或 https://）    （target是指用什么方式打开：\_self 为默认值，即在本页打开；\_blank 为在新窗口打开）    &lt;u&gt;a = anchor        href = hypertext reference&lt;/u&gt;</code></pre><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.example.com&quot;</span> <span class="attr">target</span>=<span class="string">&quot;_blank&quot;</span>&gt;</span>This is a link.<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div><ol start="2"><li>内部链接</li></ol><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;nextPage.html&quot;</span>&gt;</span>Click to go to next page.<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div><p>​        （空链接的 href 值为 “#”）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#&quot;</span>&gt;</span>未完成页面<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div><p>​        （下载链接的 href 值为 .exe 或 .zip 等压缩包文件名称）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;document.zip&quot;</span>&gt;</span>Download<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div><p>​        （以图片为载体的超链接）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;http://www.example.com&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;img.jpg&quot;</span> /&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></div><p>​        内部链接中一个比较特殊的形式：锚点链接<br>​        （立刻跳转到本页面的指定位置，注意设立标签需要 # ）</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#third&quot;</span>&gt;</span>第三点：法治社会<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;<span class="name">br</span> /&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">h3</span> <span class="attr">id</span>=<span class="string">&quot;third&quot;</span>&gt;</span>第三点：法治社会<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br></pre></td></tr></table></figure></div>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>语法</tag>
-        <tag>js</tag>
-        <tag>编程语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VScode快捷键记录</title>
-    <url>/2021/08/18/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/VSCode%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>⚠️注释：⌘=Command; ⌥=Option; ^=Control; ⇧=Shift; ⇪=CapLock; ⎋=Escape</p>
-<h1 id="HTML篇"><a href="#HTML篇" class="headerlink" title="HTML篇"></a><strong>HTML篇</strong></h1><ul>
-<li><p>! +Tab：可以快速制作骨架</p>
-</li>
-<li><p>⌥⇧F：实现代码对齐</p>
-</li>
-<li><p>⌘ + /：添加/取消注释（另外还有 ⌘KC &amp; ⌘KU）</p>
-<span id="more"></span></li>
-<li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line">// 输入 div*3 , 回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li>
-<li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line">// 输入 div&#123;$&#125;*3 ，回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>1<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>2<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">div</span>&gt;</span>3<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li>
-<li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line">// 给标签加id和class</span><br><span class="line">// 输入 div#tagId ，回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;tagId&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">// 输入 div.tagClass ，回车</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;tagClass&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li>
-<li>  <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line">// 多层嵌套标签用&gt;右尖括号，还可以任意组合。</span><br><span class="line">span&gt;div&gt;section</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">span&gt;div*3&gt;section</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">span&gt;div&#123;$&#125;*3&gt;section</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        1</span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        2</span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        3</span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"></span><br><span class="line">span&gt;div*3&gt;section&#123;$&#125;*3</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>1<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>2<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>3<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>1<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>2<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>3<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>1<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>2<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">section</span>&gt;</span>3<span class="tag">&lt;/<span class="name">section</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></div></li>
-</ul>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 语法 </tag>
+            
+            <tag> HTML </tag>
+            
+            <tag> 标记语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>尚硅谷JS笔记</title>
+      <link href="/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B0%9A%E7%A1%85%E8%B0%B7JS%E7%AC%94%E8%AE%B0/"/>
+      <url>/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%B0%9A%E7%A1%85%E8%B0%B7JS%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="001-JS简介"><a href="#001-JS简介" class="headerlink" title="001-JS简介"></a>001-JS简介</h1><p>NetScape开发了一门语言叫LiveScript用于自家的Navigator浏览器。</p><p>Sun公司来了，Java在当时火，就改名叫JavaScript。</p><span id="more"></span><p>最早用于作前端验证的，但现在已经可以做一些动态网页和后端服务器的开发</p><p>之后，NetScape因无法与Microsoft竞争，从而将JavaScript开源，与Microsoft的JScript一同使用ECMAScript的标准，简称ES 。一般情况下ES=JS</p><hr><h1 id="002-Hello-World"><a href="#002-Hello-World" class="headerlink" title="002-Hello World"></a>002-Hello World</h1><ul><li>JS代码需要编写到script标签中, type=”text/javascript”是默认值，可不写</li></ul><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure></div><ul><li>控制浏览器弹出一个警告框</li></ul><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">&quot;这是我第一行JS代码&quot;</span>);</span><br></pre></td></tr></table></figure></div><ul><li>让计算机在页面中输出一个内容，document.write()可以向body中输出一个内容</li></ul><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.write(<span class="string">&quot;你看我出不出来～～&quot;</span>);</span><br></pre></td></tr></table></figure></div><ul><li>向控制台输出一个内容</li></ul><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="JS"><figure class="iseeu highlight /js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">&quot;你猜我在哪里出来呢？&quot;</span>);</span><br></pre></td></tr></table></figure></div><hr><h1 id="003"><a href="#003" class="headerlink" title="003-"></a>003-</h1>]]></content>
+      
+      
       <categories>
-        <category>课外摘录</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>VScode</tag>
-        <tag>快捷键</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前端自学万人血书</title>
-    <url>/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前端自学万人血书"><a href="#前端自学万人血书" class="headerlink" title="前端自学万人血书"></a>前端自学万人血书</h1><h2 id="书籍推荐"><a href="#书籍推荐" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>1.HTML - Head First HTML 与 CSS （有趣配图）<br>             - HTML5权威指南 （全面性高，内容较多）<br>   教程    <a href="https://www.w3school.com.cn/h.asp">https://www.w3school.com.cn/h.asp</a><br>              菜鸟教程<br>2.CSS     - CSS权威指南（当工具书）<br>              - CSS揭秘（实践教程，启发性）<br>     教程同样 w3school&amp;菜鸟<br>3.JavaScript  -  你不知道的JavaScript（对深度概念讲解）<br>                     - JavaScript DOM编程艺术（入门）<br>                     - JavaScript 高级程序设计（红宝书，权威入门书籍，全面)<br>                     - JavaScript权威指南（全面性高）<br>  教程 菜鸟&amp;现代JavaScript教程（<a href="https://zh.javascript.info/">https://zh.javascript.info/</a>)<br>4.ES  - ECMAScript6入门教程<br>         - 深入理解ES6（系统地介绍）<br>5.TS   -英文文档 <a href="https://www.typescriptlang.org/docs">https://www.typescriptlang.org/docs</a><br>          -中文文档 <a href="https://www.tslang.cn/docs/home.html">https://www.tslang.cn/docs/home.html</a><br>          -深入理解TypeScript<br>6.数据结构与算法<br>   -学习JavaScript数据结构与算法「第三版」<br>7.设计模式<br>  -JavaScript设计模式（灵活运用，进阶时需要）<br>8.网络协议<br>  -图解TCP/IP，图解HTTP（非常有趣）<br>  -HTTP权威指南（不知包括http协议，扩大知识面与进阶时需要）<br>9.NodeJS<br>  -中文文档 <a href="http://nodejs.cn/api/">http://nodejs.cn/api/</a><br>  -Node.js实战（硬要找教材，可以看看）<br>  -深入浅出Node.js（进阶，想深入了解可看）<br>10.框架<br>  -首推官方文档<br>    Vue.js中文官方文档：<a href="https://vuejs.bootcss.com/guide/">https://vuejs.bootcss.com/guide/</a><br>    React.js官方文档：<a href="https://reactjs.org/docs/getting-started.html">https://reactjs.org/docs/getting-started.html</a><br>    React.js小书：<a href="https://github.com/huzidaha/react-naive-book">https://github.com/huzidaha/react-naive-book</a><br>    Webpack中文官方文档：<a href="https://www.webpackjs.com/concepts/">https://www.webpackjs.com/concepts/</a><br>    Sass中文文档：<a href="https://sass.bootcss.com/documentation">https://sass.bootcss.com/documentation</a><br>    Less中文文档：<a href="http://lesscss.cn/usage/">http://lesscss.cn/usage/</a><br>    Stylus中文文档：<a href="https://stylus.bootcss.com/">https://stylus.bootcss.com/</a><br>11.性能<br>  -Web性能权威指南（TCP/IP内容先熟悉后，进阶时食用）</p>
-<p>​                        </p>
-<p>​                                                                （此笔记摘录于<a href="https://www.bilibili.com/video/BV1mr4y1w7xQ?spm_id_from=333.999.0.0">CodeSheep的视频</a>）</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 语法 </tag>
+            
+            <tag> js </tag>
+            
+            <tag> 编程语言 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown 语法</title>
+      <link href="/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a><strong>Markdown 语法</strong></h1><h2 id="1、代码块"><a href="#1、代码块" class="headerlink" title="1、代码块"></a>1、代码块</h2><span id="more"></span><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PYTHON"><figure class="iseeu highlight /python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 通过 &quot; ``` + 语言名称 &quot; 就可以在文档中创建一个代码块</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div><hr><h2 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//标题语法</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></div><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr><h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">//加粗</span><br><span class="line"><span class="strong">**哈哈哈**</span></span><br><span class="line">//代码高亮显示</span><br><span class="line">==Sharkpan==</span><br><span class="line">//删除线</span><br><span class="line">~~我喜欢你~~</span><br><span class="line">//斜体</span><br><span class="line"><span class="emphasis">*斜体内容*</span></span><br></pre></td></tr></table></figure></div><p>//加粗<br><strong>哈哈哈</strong><br>//代码高亮显示<br>==Sharkpan==<br>//删除线<br><del>我喜欢你</del><br>//斜体<br><em>斜体内容</em></p><hr><h2 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//引用语法</span><br><span class="line">&gt;你是谁</span><br><span class="line">&gt;&gt;你在哪里</span><br><span class="line">&gt;&gt;&gt;你要做什么</span><br></pre></td></tr></table></figure></div><blockquote><p>你是谁</p><blockquote><p>你在哪里</p><blockquote><p>你要做什么</p></blockquote></blockquote></blockquote><hr><h2 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">//分割线1</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">//分割线2</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br></pre></td></tr></table></figure></div><p>//分割线1</p><hr><p>//分割线2</p><hr><h2 id="6、图片插入"><a href="#6、图片插入" class="headerlink" title="6、图片插入"></a>6、图片插入</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//在线图片与本地图片</span><br><span class="line">![<span class="string">图片的名字</span>](<span class="link">/图片路径或地址</span>)</span><br></pre></td></tr></table></figure></div><p><img src="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80" alt=" "></p><hr><h2 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">//超链接语法，在typora中需要按住cmd点击</span><br><span class="line">[<span class="string">unsplash</span>](<span class="link">https://unsplash.com/</span>)</span><br></pre></td></tr></table></figure></div><p>//超链接语法<br><a href="https://unsplash.com/">unsplash</a></p><hr><h2 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//无序列表</span><br><span class="line"><span class="bullet">-</span> 目录一</span><br><span class="line"><span class="bullet">-</span> 目录二</span><br><span class="line"><span class="bullet">-</span> 目录三</span><br></pre></td></tr></table></figure></div><h2 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h2><p>右键插入表格</p><hr><h2 id="10、字体颜色（通过HTML与CSS实现）"><a href="#10、字体颜色（通过HTML与CSS实现）" class="headerlink" title="10、字体颜色（通过HTML与CSS实现）"></a>10、字体颜色（通过HTML与CSS实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#82B1DB;&quot;</span>&gt;</span></span>看看我是什么颜色！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#FF3D00;&quot;</span>&gt;</span></span>我还能黑体！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div><p><span style="color:#82B1DB;">看看我是什么颜色！</span></p><p><strong><span style="color:#FF3D00;">我还能黑体！</span></strong></p><hr><h2 id="11、页面内跳转（通过HTML实现）"><a href="#11、页面内跳转（通过HTML实现）" class="headerlink" title="11、页面内跳转（通过HTML实现）"></a>11、页面内跳转（通过HTML实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#jump_1&quot;</span>&gt;</span></span>点击页面内跳转<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;jump_1&quot;</span>&gt;</span></span>我是页面内跳转到的位置<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div><p><a href="#jump_1">点击页面内跳转</a></p><p><a id="jump_1">我是页面内跳转到的位置</a></p>]]></content>
+      
+      
       <categories>
-        <category>课外摘录</category>
+          
+          <category> 学习笔记 </category>
+          
       </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 语法 </tag>
+            
+            <tag> 标记语言 </tag>
+            
+            <tag> md </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
