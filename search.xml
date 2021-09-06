@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown 语法</title>
+    <url>/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a><strong>Markdown 语法</strong></h1><h2 id="1、代码块"><a href="#1、代码块" class="headerlink" title="1、代码块"></a>1、代码块</h2><span id="more"></span>
+
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PYTHON"><figure class="iseeu highlight /python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通过 &quot; ``` + 语言名称 &quot; 就可以在文档中创建一个代码块</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h2 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//标题语法</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></div>
+
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//加粗</span><br><span class="line"><span class="strong">**哈哈哈**</span></span><br><span class="line">//代码高亮显示</span><br><span class="line">==Sharkpan==</span><br><span class="line">//删除线</span><br><span class="line">~~我喜欢你~~</span><br><span class="line">//斜体</span><br><span class="line"><span class="emphasis">*斜体内容*</span></span><br></pre></td></tr></table></figure></div>
+
+<p>//加粗<br><strong>哈哈哈</strong><br>//代码高亮显示<br>==Sharkpan==<br>//删除线<br><del>我喜欢你</del><br>//斜体<br><em>斜体内容</em></p>
+<hr>
+<h2 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//引用语法</span><br><span class="line">&gt;你是谁</span><br><span class="line">&gt;&gt;你在哪里</span><br><span class="line">&gt;&gt;&gt;你要做什么</span><br></pre></td></tr></table></figure></div>
+
+<blockquote>
+<p>你是谁</p>
+<blockquote>
+<p>你在哪里</p>
+<blockquote>
+<p>你要做什么</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">//分割线1</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">//分割线2</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p>//分割线1</p>
+<hr>
+<p>//分割线2</p>
+<hr>
+<h2 id="6、图片插入"><a href="#6、图片插入" class="headerlink" title="6、图片插入"></a>6、图片插入</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//在线图片与本地图片</span><br><span class="line">![<span class="string">图片的名字</span>](<span class="link">/图片路径或地址</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p><img src="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80" alt=" "></p>
+<hr>
+<h2 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//超链接语法，在typora中需要按住cmd点击</span><br><span class="line">[<span class="string">unsplash</span>](<span class="link">https://unsplash.com/</span>)</span><br></pre></td></tr></table></figure></div>
+
+<p>//超链接语法<br><a href="https://unsplash.com/">unsplash</a></p>
+<hr>
+<h2 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//无序列表</span><br><span class="line"><span class="bullet">-</span> 目录一</span><br><span class="line"><span class="bullet">-</span> 目录二</span><br><span class="line"><span class="bullet">-</span> 目录三</span><br></pre></td></tr></table></figure></div>
+
+
+
+<h2 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h2><p>右键插入表格</p>
+<hr>
+<h2 id="10、字体颜色（通过HTML与CSS实现）"><a href="#10、字体颜色（通过HTML与CSS实现）" class="headerlink" title="10、字体颜色（通过HTML与CSS实现）"></a>10、字体颜色（通过HTML与CSS实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#82B1DB;&quot;</span>&gt;</span></span>看看我是什么颜色！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#FF3D00;&quot;</span>&gt;</span></span>我还能黑体！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p><span style="color:#82B1DB;">看看我是什么颜色！</span></p>
+<p><strong><span style="color:#FF3D00;">我还能黑体！</span></strong></p>
+<hr>
+<h2 id="11、页面内跳转（通过HTML实现）"><a href="#11、页面内跳转（通过HTML实现）" class="headerlink" title="11、页面内跳转（通过HTML实现）"></a>11、页面内跳转（通过HTML实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#jump_1&quot;</span>&gt;</span></span>点击页面内跳转<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;jump_1&quot;</span>&gt;</span></span>我是页面内跳转到的位置<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p><a href="#jump_1">点击页面内跳转</a></p>
+<p><a id="jump_1">我是页面内跳转到的位置</a></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>标记语言</tag>
+        <tag>语法</tag>
+        <tag>md</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HTML基础笔记</title>
     <url>/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="知识点提及"><a href="#知识点提及" class="headerlink" title="知识点提及"></a><strong>知识点提及</strong></h1><h2 id="Web-标准的构成（重点）"><a href="#Web-标准的构成（重点）" class="headerlink" title="Web 标准的构成（重点）"></a>Web 标准的构成（重点）</h2><p>​    主要包括<strong><span style="color:#82B1DB;">结构</span></strong>（structure框架<u>html</u>）、<strong><span style="color:#82B1DB;">表现</span></strong>（presentation颜色<u>css</u>）、<strong><span style="color:#82B1DB;">行为</span></strong>（behavior交互<u>js</u>），要互相<strong><span style="color:#82B1DB;">分离</span></strong>。</p>
@@ -86,18 +152,21 @@
 
 <h4 id="列表标签🧾"><a href="#列表标签🧾" class="headerlink" title="列表标签🧾"></a>列表标签🧾</h4><p>​    列表最大的优点在于他的整齐、整洁、有序，所以适合做页面布局，共分为<strong><span style="color:#82B1DB;">无序列表</span></strong>、<strong><span style="color:#82B1DB;">有序列表</span></strong>、<strong><span style="color:#82B1DB;">自定义列表</span></strong>。</p>
 <ul>
-<li>⚠️重点：<strong>无序列表</strong>（ul里只能包含li，但li里可以放任何元素）    <u>ul = “unordered list”        li = “list item”</u></li>
+<li>⚠️重点：<strong>无序列表</strong>（ul里只能包含li，但li里可以放任何元素）    </li>
 </ul>
+<p>​    <u>ul = “unordered list”        li = “list item”</u></p>
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>你喜欢什么水果？<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>苹果<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>桃子<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 
 <ul>
-<li><strong>有序列表</strong>（ol里只能包含li，但li里可以放任何元素）<u>ol = “ordered list”</u></li>
+<li><strong>有序列表</strong>（ol里只能包含li，但li里可以放任何元素）</li>
 </ul>
+<p>​    <u>ol = “ordered list”</u></p>
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">h4</span>&gt;</span>跑步比赛排名：<span class="tag">&lt;/<span class="name">h4</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ol</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>琼斯<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span>&gt;</span>史派克<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ol</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 
 <ul>
-<li>⚠️重点：<strong>自定义列表</strong>（dl里只能包含dt和dd，可出现多个dt，dt和dd是并列关系​    <u>dl = “definition list”        dt = “definition term”        dd = “definition discription”</u></li>
+<li>⚠️重点：<strong>自定义列表</strong>（dl里只能包含dt和dd，可出现多个dt，dt和dd是并列关系</li>
 </ul>
+<p>​    <u>dl = “definition list”        dt = “definition term”        dd = “definition discription”</u></p>
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">dl</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dt</span>&gt;</span>关注我们<span class="tag">&lt;/<span class="name">dt</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">dd</span>&gt;</span>新浪微博<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line">	<span class="tag">&lt;<span class="name">dd</span>&gt;</span>官方微信<span class="tag">&lt;/<span class="name">dd</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">dl</span>&gt;</span></span><br></pre></td></tr></table></figure></div>
 
 <h4 id="表单标签📝"><a href="#表单标签📝" class="headerlink" title="表单标签📝"></a>表单标签📝</h4><p>​    使用表单的目的是为了<strong><span style="color:#82B1DB;">收集用户信息</span></strong>，主要是由<strong><span style="color:#82B1DB;">表单域</span></strong>（表单的区域）、<strong><span style="color:#82B1DB;">表单控件</span></strong>（表单元素）、<strong><span style="color:#82B1DB;">提示信息</span></strong>（文字信息）这3个部分组成。</p>
@@ -107,8 +176,9 @@
 <div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="HTML"><figure class="iseeu highlight /html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">&quot;demo.php&quot;</span> <span class="attr">method</span>=<span class="string">&quot;POST&quot;</span> <span class="attr">name</span>=<span class="string">&quot;name1&quot;</span></span></span><br></pre></td></tr></table></figure></div>
 
 <ul>
-<li>表单控件（表单元素）  <strong>input</strong>标签（<strong>name</strong>和<strong>value</strong>是几乎每个表单元素都有的属性值，主要给后台人员使用）用于采集用户信息，<strong>type</strong>属性有如下：</li>
+<li>表单控件（表单元素）</li>
 </ul>
+<p>​    <strong>input</strong>标签（<strong>name</strong>和<strong>value</strong>是几乎每个表单元素都有的属性值，主要给后台人员使用）用于采集用户信息，<strong>type</strong>属性有如下：</p>
 <table>
 <thead>
 <tr>
@@ -163,176 +233,9 @@
         <category>学习笔记</category>
       </categories>
       <tags>
+        <tag>标记语言</tag>
         <tag>语法</tag>
         <tag>HTML</tag>
-        <tag>标记语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown 语法</title>
-    <url>/2021/07/13/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Markdown%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Markdown-语法"><a href="#Markdown-语法" class="headerlink" title="Markdown 语法"></a><strong>Markdown 语法</strong></h1><h2 id="1、代码块"><a href="#1、代码块" class="headerlink" title="1、代码块"></a>1、代码块</h2><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PYTHON"><figure class="iseeu highlight /python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 通过 &quot; ``` + 语言名称 &quot; 就可以在文档中创建一个代码块</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span> (<span class="string">&quot;Hello World!&quot;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h2 id="2、标题"><a href="#2、标题" class="headerlink" title="2、标题"></a>2、标题</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//标题语法</span><br><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure></div>
-
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
-<h2 id="3、字体"><a href="#3、字体" class="headerlink" title="3、字体"></a>3、字体</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//加粗</span><br><span class="line"><span class="strong">**哈哈哈**</span></span><br><span class="line">//代码高亮显示</span><br><span class="line">==Sharkpan==</span><br><span class="line">//删除线</span><br><span class="line">~~我喜欢你~~</span><br><span class="line">//斜体</span><br><span class="line"><span class="emphasis">*斜体内容*</span></span><br></pre></td></tr></table></figure></div>
-
-<p>//加粗<br><strong>哈哈哈</strong><br>//代码高亮显示<br>==Sharkpan==<br>//删除线<br><del>我喜欢你</del><br>//斜体<br><em>斜体内容</em></p>
-<hr>
-<h2 id="4、引用"><a href="#4、引用" class="headerlink" title="4、引用"></a>4、引用</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//引用语法</span><br><span class="line">&gt;你是谁</span><br><span class="line">&gt;&gt;你在哪里</span><br><span class="line">&gt;&gt;&gt;你要做什么</span><br></pre></td></tr></table></figure></div>
-
-<blockquote>
-<p>你是谁</p>
-<blockquote>
-<p>你在哪里</p>
-<blockquote>
-<p>你要做什么</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr>
-<h2 id="5、分割线"><a href="#5、分割线" class="headerlink" title="5、分割线"></a>5、分割线</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">//分割线1</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">//分割线2</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p>//分割线1</p>
-<hr>
-<p>//分割线2</p>
-<hr>
-<h2 id="6、图片插入"><a href="#6、图片插入" class="headerlink" title="6、图片插入"></a>6、图片插入</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//在线图片与本地图片</span><br><span class="line">![<span class="string">图片的名字</span>](<span class="link">/图片路径或地址</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p><img src="https://images.unsplash.com/photo-1626103989191-05f5e081e0bf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2794&q=80" alt=" "></p>
-<hr>
-<h2 id="7、超链接"><a href="#7、超链接" class="headerlink" title="7、超链接"></a>7、超链接</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//超链接语法，在typora中需要按住cmd点击</span><br><span class="line">[<span class="string">unsplash</span>](<span class="link">https://unsplash.com/</span>)</span><br></pre></td></tr></table></figure></div>
-
-<p>//超链接语法<br><a href="https://unsplash.com/">unsplash</a></p>
-<hr>
-<h2 id="8、列表"><a href="#8、列表" class="headerlink" title="8、列表"></a>8、列表</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line">//无序列表</span><br><span class="line"><span class="bullet">-</span> 目录一</span><br><span class="line"><span class="bullet">-</span> 目录二</span><br><span class="line"><span class="bullet">-</span> 目录三</span><br></pre></td></tr></table></figure></div>
-
-
-
-<h2 id="9、表格"><a href="#9、表格" class="headerlink" title="9、表格"></a>9、表格</h2><p>右键插入表格</p>
-<hr>
-<h2 id="10、字体颜色（通过HTML与CSS实现）"><a href="#10、字体颜色（通过HTML与CSS实现）" class="headerlink" title="10、字体颜色（通过HTML与CSS实现）"></a>10、字体颜色（通过HTML与CSS实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#82B1DB;&quot;</span>&gt;</span></span>看看我是什么颜色！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">style</span>=<span class="string">&quot;color:#FF3D00;&quot;</span>&gt;</span></span>我还能黑体！<span class="xml"><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p><span style="color:#82B1DB;">看看我是什么颜色！</span></p>
-<p><strong><span style="color:#FF3D00;">我还能黑体！</span></strong></p>
-<hr>
-<h2 id="11、页面内跳转（通过HTML实现）"><a href="#11、页面内跳转（通过HTML实现）" class="headerlink" title="11、页面内跳转（通过HTML实现）"></a>11、页面内跳转（通过HTML实现）</h2><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="MARKDOWN"><figure class="iseeu highlight /markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;#jump_1&quot;</span>&gt;</span></span>点击页面内跳转<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">a</span> <span class="attr">id</span>=<span class="string">&quot;jump_1&quot;</span>&gt;</span></span>我是页面内跳转到的位置<span class="xml"><span class="tag">&lt;/<span class="name">a</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p><a href="#jump_1">点击页面内跳转</a></p>
-<p><a id="jump_1">我是页面内跳转到的位置</a></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>语法</tag>
-        <tag>标记语言</tag>
-        <tag>md</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VSCode复制剪切粘贴时变为Insert的解决方法</title>
-    <url>/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VSCode复制剪切粘贴时变为Insert的解决方法"><a href="#VSCode复制剪切粘贴时变为Insert的解决方法" class="headerlink" title="VSCode复制剪切粘贴时变为Insert的解决方法"></a>VSCode复制剪切粘贴时变为Insert的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在 MacOS 环境下，使用VSCode写作时出现 ⌘C 、⌘V、⌘X 会变为NORMAL模式，无法继续书写。或者左下角会有NORMAL 和 INSERT 的字样。</p>
-<span id="more"></span>
-
-<p><img src="https://i.loli.net/2021/09/03/Hvwj6ApEBKaNnbs.png" alt="01.png"></p>
-<p><img src="https://i.loli.net/2021/09/03/KnUg1kPAlLzsZdS.png" alt="02.png"></p>
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>目前这种状态说明 VSCode 正在使用 Vim 编辑器进行编辑，所以只要删除或禁用，然后重启即可。</p>
-<p>打开 VSCode 输入快捷键 ⌘⇧X 打开扩展页面，搜索 Vim。</p>
-<img src="https://i.loli.net/2021/09/03/AQokfZmgl47tdUF.png" alt="03.png" style="zoom:50%;" />
-
-
-
-]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>VScode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>VScode安装损坏解决方法</title>
-    <url>/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VScode安装损坏解决方法"><a href="#VScode安装损坏解决方法" class="headerlink" title="VScode安装损坏解决方法"></a>VScode安装损坏解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”</p>
-<span id="more"></span>
-
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/01.4sz2r9sjfje0.png" alt="01" style="zoom:50%;" />
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在VScode插件中搜索 Fix VSCode Checksums，下载此插件。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/02.4cpiegy9bv20.png" alt="02" style="zoom:50%;" />
-
-<p>按 ⌘⇧P 唤出命令面板（Command Palette），输入 &gt;Fix Checksums: Apply，重启VScode</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/03.3d9ikwt7z5s0.png" alt="03" style="zoom:50%;" />]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>VScode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Mac不能编辑Users文件夹内文件的解决方法</title>
-    <url>/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Mac不能编辑Users文件夹内文件的解决方法"><a href="#Mac不能编辑Users文件夹内文件的解决方法" class="headerlink" title="Mac不能编辑Users文件夹内文件的解决方法"></a>Mac不能编辑Users文件夹内文件的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。</p>
-<span id="more"></span>
-
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.37.6yk7do2d6rs0.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
-
-<p>点击Unlock后没有效果</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.46.esic4xnx1j4.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>选中你要编辑文件所在的文件夹（只要根目录里的文件夹就行），command + i 或右键<strong>显示简介</strong>，找到<strong>共享与权限</strong>一栏。打开右下角的锁，点击左下角的 <strong>+</strong> 将你正在登入使用的用户加入，将其权限改为<strong>读与写</strong>。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.32.33.1aphhmvxfvkw.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
-
-<p>最后点三个点，将其应用到包含的项目，再重新打开要编辑的文件时就发现可以编辑了。</p>
-<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.33.00.501zzuwnytc0.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
-
-]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Xcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>终端使用Vim编辑时怎么退出</title>
-    <url>/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="终端使用Vim编辑时怎么退出"><a href="#终端使用Vim编辑时怎么退出" class="headerlink" title="终端使用Vim编辑时怎么退出"></a>终端使用Vim编辑时怎么退出</h2><h3 id="进入vim"><a href="#进入vim" class="headerlink" title="进入vim"></a>进入vim</h3><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">vim &lt;file name&gt;</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="退出vi-Last-line-mode-末行模式"><a href="#退出vi-Last-line-mode-末行模式" class="headerlink" title="退出vi(Last line mode 末行模式)"></a>退出vi(Last line mode 末行模式)</h3><p>​    先按 ESC 键，输入一下命令退出</p>
-<h3 id="1"><a href="#1" class="headerlink" title="1"></a><strong>1</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w <span class="comment">#此时你是将接下来的新内容来替换原内容</span></span><br></pre></td></tr></table></figure></div>
-
-<p>​    但此时还没有退出vi，需要输入一下指令</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w &lt;filename&gt; <span class="comment">#存入指定文件</span></span><br><span class="line"></span><br><span class="line">:q <span class="comment">#保存并退出</span></span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h3 id="2"><a href="#2" class="headerlink" title="2"></a><strong>2</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:wq <span class="comment">#就是将上面的两步操作合成一步来完成</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
-
-<p>这两条指令都与第二个同理</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:x </span><br><span class="line"></span><br><span class="line">ZZ</span><br></pre></td></tr></table></figure></div>
-
-<hr>
-<h3 id="3"><a href="#3" class="headerlink" title="3"></a><strong>3</strong></h3><p>强行退出vi，使被更新的内容不写回文件中。仅键入命令:q时，如vi发现文本内容已被更改，将提示用户使用“:quit”命令退出。</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:q! (或:quit)</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Vim</tag>
-        <tag>终端</tag>
       </tags>
   </entry>
   <entry>
@@ -377,6 +280,22 @@
       </tags>
   </entry>
   <entry>
+    <title>前端自学万人血书</title>
+    <url>/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前端自学万人血书"><a href="#前端自学万人血书" class="headerlink" title="前端自学万人血书"></a>前端自学万人血书</h1><span id="more"></span>
+
+<h2 id="书籍推荐"><a href="#书籍推荐" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>1.HTML - Head First HTML 与 CSS （有趣配图）<br>             - HTML5权威指南 （全面性高，内容较多）<br>   教程    <a href="https://www.w3school.com.cn/h.asp">https://www.w3school.com.cn/h.asp</a><br>              菜鸟教程<br>2.CSS     - CSS权威指南（当工具书）<br>              - CSS揭秘（实践教程，启发性）<br>     教程同样 w3school&amp;菜鸟<br>3.JavaScript  -  你不知道的JavaScript（对深度概念讲解）<br>                     - JavaScript DOM编程艺术（入门）<br>                     - JavaScript 高级程序设计（红宝书，权威入门书籍，全面)<br>                     - JavaScript权威指南（全面性高）<br>  教程 菜鸟&amp;现代JavaScript教程（<a href="https://zh.javascript.info/">https://zh.javascript.info/</a>)<br>4.ES  - ECMAScript6入门教程<br>         - 深入理解ES6（系统地介绍）<br>5.TS   -英文文档 <a href="https://www.typescriptlang.org/docs">https://www.typescriptlang.org/docs</a><br>          -中文文档 <a href="https://www.tslang.cn/docs/home.html">https://www.tslang.cn/docs/home.html</a><br>          -深入理解TypeScript<br>6.数据结构与算法<br>   -学习JavaScript数据结构与算法「第三版」<br>7.设计模式<br>  -JavaScript设计模式（灵活运用，进阶时需要）<br>8.网络协议<br>  -图解TCP/IP，图解HTTP（非常有趣）<br>  -HTTP权威指南（不知包括http协议，扩大知识面与进阶时需要）<br>9.NodeJS<br>  -中文文档 <a href="http://nodejs.cn/api/">http://nodejs.cn/api/</a><br>  -Node.js实战（硬要找教材，可以看看）<br>  -深入浅出Node.js（进阶，想深入了解可看）<br>10.框架<br>  -首推官方文档<br>    Vue.js中文官方文档：<a href="https://vuejs.bootcss.com/guide/">https://vuejs.bootcss.com/guide/</a><br>    React.js官方文档：<a href="https://reactjs.org/docs/getting-started.html">https://reactjs.org/docs/getting-started.html</a><br>    React.js小书：<a href="https://github.com/huzidaha/react-naive-book">https://github.com/huzidaha/react-naive-book</a><br>    Webpack中文官方文档：<a href="https://www.webpackjs.com/concepts/">https://www.webpackjs.com/concepts/</a><br>    Sass中文文档：<a href="https://sass.bootcss.com/documentation">https://sass.bootcss.com/documentation</a><br>    Less中文文档：<a href="http://lesscss.cn/usage/">http://lesscss.cn/usage/</a><br>    Stylus中文文档：<a href="https://stylus.bootcss.com/">https://stylus.bootcss.com/</a><br>11.性能<br>  -Web性能权威指南（TCP/IP内容先熟悉后，进阶时食用）</p>
+<p>​                        </p>
+<p>​                                                                （此笔记摘录于<a href="https://www.bilibili.com/video/BV1mr4y1w7xQ?spm_id_from=333.999.0.0">CodeSheep的视频</a>）</p>
+]]></content>
+      <categories>
+        <category>课外摘录</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>VScode快捷键记录</title>
     <url>/2021/08/18/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/VSCode%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>⚠️注释：⌘=Command; ⌥=Option; ^=Control; ⇧=Shift; ⇪=CapLock; ⎋=Escape</p>
@@ -398,44 +317,8 @@
       </categories>
       <tags>
         <tag>Mac</tag>
-        <tag>VScode</tag>
         <tag>快捷键</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前端自学万人血书</title>
-    <url>/2021/09/02/%E8%AF%BE%E5%A4%96%E6%91%98%E5%BD%95/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AD%A6%E4%B8%87%E4%BA%BA%E8%A1%80%E4%B9%A6/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="前端自学万人血书"><a href="#前端自学万人血书" class="headerlink" title="前端自学万人血书"></a>前端自学万人血书</h1><span id="more"></span>
-
-<h2 id="书籍推荐"><a href="#书籍推荐" class="headerlink" title="书籍推荐"></a>书籍推荐</h2><p>1.HTML - Head First HTML 与 CSS （有趣配图）<br>             - HTML5权威指南 （全面性高，内容较多）<br>   教程    <a href="https://www.w3school.com.cn/h.asp">https://www.w3school.com.cn/h.asp</a><br>              菜鸟教程<br>2.CSS     - CSS权威指南（当工具书）<br>              - CSS揭秘（实践教程，启发性）<br>     教程同样 w3school&amp;菜鸟<br>3.JavaScript  -  你不知道的JavaScript（对深度概念讲解）<br>                     - JavaScript DOM编程艺术（入门）<br>                     - JavaScript 高级程序设计（红宝书，权威入门书籍，全面)<br>                     - JavaScript权威指南（全面性高）<br>  教程 菜鸟&amp;现代JavaScript教程（<a href="https://zh.javascript.info/">https://zh.javascript.info/</a>)<br>4.ES  - ECMAScript6入门教程<br>         - 深入理解ES6（系统地介绍）<br>5.TS   -英文文档 <a href="https://www.typescriptlang.org/docs">https://www.typescriptlang.org/docs</a><br>          -中文文档 <a href="https://www.tslang.cn/docs/home.html">https://www.tslang.cn/docs/home.html</a><br>          -深入理解TypeScript<br>6.数据结构与算法<br>   -学习JavaScript数据结构与算法「第三版」<br>7.设计模式<br>  -JavaScript设计模式（灵活运用，进阶时需要）<br>8.网络协议<br>  -图解TCP/IP，图解HTTP（非常有趣）<br>  -HTTP权威指南（不知包括http协议，扩大知识面与进阶时需要）<br>9.NodeJS<br>  -中文文档 <a href="http://nodejs.cn/api/">http://nodejs.cn/api/</a><br>  -Node.js实战（硬要找教材，可以看看）<br>  -深入浅出Node.js（进阶，想深入了解可看）<br>10.框架<br>  -首推官方文档<br>    Vue.js中文官方文档：<a href="https://vuejs.bootcss.com/guide/">https://vuejs.bootcss.com/guide/</a><br>    React.js官方文档：<a href="https://reactjs.org/docs/getting-started.html">https://reactjs.org/docs/getting-started.html</a><br>    React.js小书：<a href="https://github.com/huzidaha/react-naive-book">https://github.com/huzidaha/react-naive-book</a><br>    Webpack中文官方文档：<a href="https://www.webpackjs.com/concepts/">https://www.webpackjs.com/concepts/</a><br>    Sass中文文档：<a href="https://sass.bootcss.com/documentation">https://sass.bootcss.com/documentation</a><br>    Less中文文档：<a href="http://lesscss.cn/usage/">http://lesscss.cn/usage/</a><br>    Stylus中文文档：<a href="https://stylus.bootcss.com/">https://stylus.bootcss.com/</a><br>11.性能<br>  -Web性能权威指南（TCP/IP内容先熟悉后，进阶时食用）</p>
-<p>​                        </p>
-<p>​                                                                （此笔记摘录于<a href="https://www.bilibili.com/video/BV1mr4y1w7xQ?spm_id_from=333.999.0.0">CodeSheep的视频</a>）</p>
-]]></content>
-      <categories>
-        <category>课外摘录</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用终端部署hexo博客后出现报错的解决方法</title>
-    <url>/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用终端部署hexo博客后出现报错的解决方法"><a href="#用终端部署hexo博客后出现报错的解决方法" class="headerlink" title="用终端部署hexo博客后出现报错的解决方法"></a>用终端部署hexo博客后出现报错的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><span id="more"></span>
-
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>通过 npm 下载缺失文件 hexo-deployer-git</p>
-<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></div>
-
-]]></content>
-      <categories>
-        <category>问题解决</category>
-      </categories>
-      <tags>
-        <tag>Mac</tag>
-        <tag>Hexo</tag>
-        <tag>ERROR报错</tag>
+        <tag>VScode</tag>
       </tags>
   </entry>
   <entry>
@@ -486,6 +369,127 @@
       <tags>
         <tag>Mac</tag>
         <tag>M1</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Mac不能编辑Users文件夹内文件的解决方法</title>
+    <url>/2021/08/04/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/Mac%E4%B8%8D%E8%83%BD%E7%BC%96%E8%BE%91Users%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E6%96%87%E4%BB%B6%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Mac不能编辑Users文件夹内文件的解决方法"><a href="#Mac不能编辑Users文件夹内文件的解决方法" class="headerlink" title="Mac不能编辑Users文件夹内文件的解决方法"></a>Mac不能编辑Users文件夹内文件的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，当在用文本编辑软件对用户文件夹内文件进行编辑时，会发现没有权限进行编辑。</p>
+<span id="more"></span>
+
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.37.6yk7do2d6rs0.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
+
+<p>点击Unlock后没有效果</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午7.29.46.esic4xnx1j4.png" alt="截屏2021-08-04 上午7" style="zoom:50%;" />
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>选中你要编辑文件所在的文件夹（只要根目录里的文件夹就行），command + i 或右键<strong>显示简介</strong>，找到<strong>共享与权限</strong>一栏。打开右下角的锁，点击左下角的 <strong>+</strong> 将你正在登入使用的用户加入，将其权限改为<strong>读与写</strong>。</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.32.33.1aphhmvxfvkw.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
+
+<p>最后点三个点，将其应用到包含的项目，再重新打开要编辑的文件时就发现可以编辑了。</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/截屏2021-08-04 上午8.33.00.501zzuwnytc0.png" alt="截屏2021-08-04 上午8" style="zoom:50%;" />
+
+]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Xcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VSCode复制剪切粘贴时变为Insert的解决方法</title>
+    <url>/2021/09/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%A4%8D%E5%88%B6%E5%89%AA%E5%88%87%E7%B2%98%E8%B4%B4%E6%97%B6%E5%8F%98%E4%B8%BAInsert%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VSCode复制剪切粘贴时变为Insert的解决方法"><a href="#VSCode复制剪切粘贴时变为Insert的解决方法" class="headerlink" title="VSCode复制剪切粘贴时变为Insert的解决方法"></a>VSCode复制剪切粘贴时变为Insert的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在 MacOS 环境下，使用VSCode写作时出现 ⌘C 、⌘V、⌘X 会变为NORMAL模式，无法继续书写。或者左下角会有NORMAL 和 INSERT 的字样。</p>
+<span id="more"></span>
+
+<p><img src="https://i.loli.net/2021/09/03/Hvwj6ApEBKaNnbs.png" alt="01.png"></p>
+<p><img src="https://i.loli.net/2021/09/03/KnUg1kPAlLzsZdS.png" alt="02.png"></p>
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>目前这种状态说明 VSCode 正在使用 Vim 编辑器进行编辑，所以只要删除或禁用，然后重启即可。</p>
+<p>打开 VSCode 输入快捷键 ⌘⇧X 打开扩展页面，搜索 Vim。</p>
+<img src="https://i.loli.net/2021/09/03/AQokfZmgl47tdUF.png" alt="03.png" style="zoom:50%;" />
+
+
+
+]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>VScode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>VScode安装损坏解决方法</title>
+    <url>/2021/08/18/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/VSCode%E5%AE%89%E8%A3%85%E6%8D%9F%E5%9D%8F%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="VScode安装损坏解决方法"><a href="#VScode安装损坏解决方法" class="headerlink" title="VScode安装损坏解决方法"></a>VScode安装损坏解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><p>在MacOS环境下，打开VScode时在右下角显示 “Code安装似乎损坏。请重新安装。”</p>
+<span id="more"></span>
+
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/01.4sz2r9sjfje0.png" alt="01" style="zoom:50%;" />
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在VScode插件中搜索 Fix VSCode Checksums，下载此插件。</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/02.4cpiegy9bv20.png" alt="02" style="zoom:50%;" />
+
+<p>按 ⌘⇧P 唤出命令面板（Command Palette），输入 &gt;Fix Checksums: Apply，重启VScode</p>
+<img src="https://cdn.jsdelivr.net/gh/SharkPan/image-hosting@master/20210715/03.3d9ikwt7z5s0.png" alt="03" style="zoom:50%;" />]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>VScode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用终端部署hexo博客后出现报错的解决方法</title>
+    <url>/2021/08/05/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%94%A8%E7%BB%88%E7%AB%AF%E9%83%A8%E7%BD%B2hexo%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%87%BA%E7%8E%B0%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="用终端部署hexo博客后出现报错的解决方法"><a href="#用终端部署hexo博客后出现报错的解决方法" class="headerlink" title="用终端部署hexo博客后出现报错的解决方法"></a>用终端部署hexo博客后出现报错的解决方法</h2><h3 id="问题陈述"><a href="#问题陈述" class="headerlink" title="问题陈述"></a>问题陈述</h3><span id="more"></span>
+
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">hexo d</span><br><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>通过 npm 下载缺失文件 hexo-deployer-git</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure></div>
+
+]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Hexo</tag>
+        <tag>ERROR报错</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>终端使用Vim编辑时怎么退出</title>
+    <url>/2021/08/03/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/%E7%BB%88%E7%AB%AF%E4%BD%BF%E7%94%A8Vim%E7%BC%96%E8%BE%91%E6%97%B6%E6%80%8E%E4%B9%88%E9%80%80%E5%87%BA/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="终端使用Vim编辑时怎么退出"><a href="#终端使用Vim编辑时怎么退出" class="headerlink" title="终端使用Vim编辑时怎么退出"></a>终端使用Vim编辑时怎么退出</h2><h3 id="进入vim"><a href="#进入vim" class="headerlink" title="进入vim"></a>进入vim</h3><span id="more"></span>
+
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">vim &lt;file name&gt;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="退出vi-Last-line-mode-末行模式"><a href="#退出vi-Last-line-mode-末行模式" class="headerlink" title="退出vi(Last line mode 末行模式)"></a>退出vi(Last line mode 末行模式)</h3><p>​    先按 ESC 键，输入一下命令退出</p>
+<h3 id="1"><a href="#1" class="headerlink" title="1"></a><strong>1</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w <span class="comment">#此时你是将接下来的新内容来替换原内容</span></span><br></pre></td></tr></table></figure></div>
+
+<p>​    但此时还没有退出vi，需要输入一下指令</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:w &lt;filename&gt; <span class="comment">#存入指定文件</span></span><br><span class="line"></span><br><span class="line">:q <span class="comment">#保存并退出</span></span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h3 id="2"><a href="#2" class="headerlink" title="2"></a><strong>2</strong></h3><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:wq <span class="comment">#就是将上面的两步操作合成一步来完成</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></div>
+
+<p>这两条指令都与第二个同理</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:x </span><br><span class="line"></span><br><span class="line">ZZ</span><br></pre></td></tr></table></figure></div>
+
+<hr>
+<h3 id="3"><a href="#3" class="headerlink" title="3"></a><strong>3</strong></h3><p>强行退出vi，使被更新的内容不写回文件中。仅键入命令:q时，如vi发现文本内容已被更改，将提示用户使用“:quit”命令退出。</p>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tr><td class="code"><pre><span class="line">:q! (或:quit)</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>问题解决</category>
+      </categories>
+      <tags>
+        <tag>Mac</tag>
+        <tag>Vim</tag>
+        <tag>终端</tag>
       </tags>
   </entry>
 </search>
