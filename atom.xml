@@ -6,7 +6,7 @@
   <link href="https://sharkpan.github.io/atom.xml" rel="self"/>
   
   <link href="https://sharkpan.github.io/"/>
-  <updated>2021-09-03T14:37:52.717Z</updated>
+  <updated>2021-11-30T14:42:43.482Z</updated>
   <id>https://sharkpan.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python基础笔记</title>
+    <link href="https://sharkpan.github.io/2021/11/30/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Python%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
+    <id>https://sharkpan.github.io/2021/11/30/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Python%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</id>
+    <published>2021-11-30T12:08:00.207Z</published>
+    <updated>2021-11-30T14:42:43.482Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://sharkpan.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="Python" scheme="https://sharkpan.github.io/tags/Python/"/>
+    
+    <category term="编程语言" scheme="https://sharkpan.github.io/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>VSCode复制剪切粘贴时变为Insert的解决方法</title>
@@ -79,9 +105,9 @@
     
     <category term="Mac" scheme="https://sharkpan.github.io/tags/Mac/"/>
     
-    <category term="快捷键" scheme="https://sharkpan.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
     <category term="VScode" scheme="https://sharkpan.github.io/tags/VScode/"/>
+    
+    <category term="快捷键" scheme="https://sharkpan.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
@@ -204,10 +230,10 @@
     <link href="https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
     <id>https://sharkpan.github.io/2021/07/15/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/HTML%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</id>
     <published>2021-07-15T03:22:30.463Z</published>
-    <updated>2021-09-06T14:55:29.674Z</updated>
+    <updated>2021-11-30T14:44:31.427Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;知识点提及&quot;&gt;&lt;a href=&quot;#知识点提及&quot; class=&quot;headerlink&quot; title=&quot;知识点提及&quot;&gt;&lt;/a&gt;&lt;strong&gt;知识点提及&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;Web-标准的构成（重点）&quot;&gt;&lt;a href=&quot;#Web-标准的构成（重点）&quot; class=&quot;headerlink&quot; title=&quot;Web 标准的构成（重点）&quot;&gt;&lt;/a&gt;Web 标准的构成（重点）&lt;/h2&gt;&lt;p&gt;​    主要包括&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（structure框架&lt;u&gt;html&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;表现&lt;/span&gt;&lt;/strong&gt;（presentation颜色&lt;u&gt;css&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;行为&lt;/span&gt;&lt;/strong&gt;（behavior交互&lt;u&gt;js&lt;/u&gt;），要互相&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;分离&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;
+    <summary type="html">&lt;h3 id=&quot;知识点提及&quot;&gt;&lt;a href=&quot;#知识点提及&quot; class=&quot;headerlink&quot; title=&quot;知识点提及&quot;&gt;&lt;/a&gt;知识点提及&lt;/h3&gt;&lt;h2 id=&quot;Web-标准的构成（重点）&quot;&gt;&lt;a href=&quot;#Web-标准的构成（重点）&quot; class=&quot;headerlink&quot; title=&quot;Web 标准的构成（重点）&quot;&gt;&lt;/a&gt;Web 标准的构成（重点）&lt;/h2&gt;&lt;p&gt;​    主要包括&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;结构&lt;/span&gt;&lt;/strong&gt;（structure框架&lt;u&gt;html&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;表现&lt;/span&gt;&lt;/strong&gt;（presentation颜色&lt;u&gt;css&lt;/u&gt;）、&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;行为&lt;/span&gt;&lt;/strong&gt;（behavior交互&lt;u&gt;js&lt;/u&gt;），要互相&lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;分离&lt;/span&gt;&lt;/strong&gt;。&lt;/p&gt;
 &lt;h4 id=&quot;HTML语法规范&quot;&gt;&lt;a href=&quot;#HTML语法规范&quot; class=&quot;headerlink&quot; title=&quot;HTML语法规范&quot;&gt;&lt;/a&gt;HTML语法规范&lt;/h4&gt;&lt;p&gt;​    &lt;strong&gt;&lt;span style=&quot;color:#82B1DB;&quot;&gt;单标签&lt;/span&gt;&lt;/strong&gt;极少出现&lt;/p&gt;</summary>
     
     
@@ -215,11 +241,11 @@
     <category term="学习笔记" scheme="https://sharkpan.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="标记语言" scheme="https://sharkpan.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/"/>
-    
     <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
     <category term="HTML" scheme="https://sharkpan.github.io/tags/HTML/"/>
+    
+    <category term="标记语言" scheme="https://sharkpan.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
@@ -241,9 +267,9 @@
     
     <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="js" scheme="https://sharkpan.github.io/tags/js/"/>
-    
     <category term="编程语言" scheme="https://sharkpan.github.io/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="js" scheme="https://sharkpan.github.io/tags/js/"/>
     
   </entry>
   
@@ -262,9 +288,9 @@
     <category term="学习笔记" scheme="https://sharkpan.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="标记语言" scheme="https://sharkpan.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/"/>
-    
     <category term="语法" scheme="https://sharkpan.github.io/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="标记语言" scheme="https://sharkpan.github.io/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/"/>
     
     <category term="md" scheme="https://sharkpan.github.io/tags/md/"/>
     
